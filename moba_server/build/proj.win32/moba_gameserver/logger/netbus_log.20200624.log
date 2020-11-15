@@ -1,0 +1,36 @@
+20200624 00:29:21 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:29:23 DEBUG ./main.lua:3  
+Can't connect to MySQL server on '127.0.0.1' (10061)
+20200624 00:29:30 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:29:32 DEBUG ./main.lua:3  
+Can't connect to MySQL server on '127.0.0.1' (10061)
+20200624 00:30:00 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:30:01 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wapper.cc:175  
+[LUA ERROR] ./main.lua:3: bad argument #-1 to 'log_debug' (string expected, got nil)
+20200624 00:30:32 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:31:11 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:31:11 DEBUG ./main.lua:6  
+connect finish
+20200624 00:32:40 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:32:41 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wapper.cc:140  
+[LUA ERROR] function refid '0' does not reference a lua function
+20200624 00:34:06 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:35:05 DEBUG ./main.lua:7  
+connect finish
+20200624 00:36:33 DEBUG ./main.lua:1  
+Hello World!!!
+20200624 00:36:44 DEBUG ./main.lua:7  
+connect finish
+20200624 00:36:56 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:106  
+close_work Lock
+20200624 00:36:56 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close mysql
+20200624 00:36:56 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:112  
+close_work UnLock

@@ -1,0 +1,415 @@
+20200917 22:39:35 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:39:35 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:39:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51182
+
+20200917 22:39:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:39:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:39:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:00 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:06 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:10 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:40:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200917 22:41:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51199
+
+20200917 22:41:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:41:41 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:41:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:41:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:41:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:41:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:42:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200917 22:43:21 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51214
+
+20200917 22:43:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:43:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:43:44 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200917 22:43:53 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:43:53 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:43:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51219
+
+20200917 22:44:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:44:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:44:10 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:44:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:47:38 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:47:38 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:47:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51237
+
+20200917 22:47:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:48:22 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:48:22 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:48:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51242
+
+20200917 22:48:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:49:31 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:49:31 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:37  
+8324563
+20200917 22:49:31 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:49:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51250
+
+20200917 22:49:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:49:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:50:26 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:52:24 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 22:52:24 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:37  
+8324563
+20200917 22:52:24 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 22:52:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51273
+
+20200917 22:52:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:52:42 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:53:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 22:55:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:06 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 23:00:06 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:37  
+8324563
+20200917 23:00:06 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 23:00:17 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51310
+
+20200917 23:00:24 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:28 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:28 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:31 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:31 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:32 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:33 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:39 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:00:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200917 23:00:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51320
+
+20200917 23:00:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:00:59 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:00:59 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:01:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:01:04 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:01:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:01:07 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:40  
+on_recv_send_msg_cmd
+20200917 23:01:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:01:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200917 23:02:08 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 23:02:08 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:37  
+8324563
+20200917 23:02:08 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 23:19:13 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200917 23:19:13 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200917 23:19:19 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51409
+
+20200917 23:19:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:22 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:22 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:24 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:24 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:28 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:28 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:28 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:30 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:31 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:35 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:36 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:36 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:36 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:36 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:36 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:37 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200917 23:19:39 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200917 23:19:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200917 23:19:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!

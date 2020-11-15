@@ -1,0 +1,47 @@
+20200920 15:12:52 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:12:52 ERROR trunk:0  
+../../../apps/lua/scripts/auth_server/main.lua:31: module 'auth_service/auth_service' not found:
+	no field package.preload['auth_service/auth_service']
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\auth_service/auth_service.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\auth_service/auth_service\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\auth_service/auth_service.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\auth_service/auth_service\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\auth_service/auth_service.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\auth_service/auth_service\init.lua'
+	no file '.\auth_service/auth_service.lua'
+	no file '.\auth_service/auth_service\init.lua'
+	no file '../../../apps/lua/scripts/auth_service/auth_service.lua'
+	no file '../../../apps/lua/scripts/auth_service/auth_service/init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\auth_service/auth_service.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\lib\lua\5.3\auth_service/auth_service.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\loadall.dll'
+	no file '.\auth_service/auth_service.dll'
+20200920 15:13:20 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:13:20 ERROR trunk:0  
+../../../apps/lua/scripts/auth_server/main.lua:32: attempt to index a nil value (global 'Server')
+20200920 15:14:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:14:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:36  
+register Auth service:[1] failed!!!
+20200920 15:15:23 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:15:23 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200920 15:15:56 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:15:56 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200920 15:16:08 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:16:08 ERROR ../../../apps/lua/scripts/auth_server/main.lua:36  
+register Auth service:[1] failed!!!
+20200920 15:16:53 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:16:53 ERROR ../../../apps/lua/scripts/auth_server/main.lua:36  
+register Auth service:[1] failed!!!
+20200920 15:17:18 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:17:18 WARNING ../../../apps/lua/scripts/auth_server/main.lua:36  
+register Auth service:[1] failed!!!

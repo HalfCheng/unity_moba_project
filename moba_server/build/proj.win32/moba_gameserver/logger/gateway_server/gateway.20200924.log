@@ -1,0 +1,439 @@
+20200924 22:34:06 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:34:06 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:34:06 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:34:06 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:34:06 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:34:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50600
+
+20200924 22:39:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 22:39:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50613
+
+20200924 22:40:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 22:40:28 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50622
+
+20200924 22:40:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 22:40:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50627
+
+20200924 22:41:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:41:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:41:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:41:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:41:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:41:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50636
+
+20200924 22:45:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 22:45:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:45:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:45:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:45:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:45:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:45:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50658
+
+20200924 22:46:20 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:46:20 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:46:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:46:21 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:46:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:46:26 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50665
+
+20200924 22:46:40 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 22:49:33 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:49:33 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:49:33 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:50:24 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:50:24 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:50:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:50:24 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:50:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 22:50:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50687
+
+20200924 22:50:36 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:93  
+on_gw_recv_raw_cmd
+20200924 23:16:55 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:16:55 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:16:55 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:17:12 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:17:12 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:17:42 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:17:42 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:17:42 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:17:42 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:17:42 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:17:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50752
+
+20200924 23:17:50 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:93  
+on_gw_recv_raw_cmd	0
+20200924 23:18:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:18:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:18:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:18:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:18:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:18:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50757
+
+20200924 23:18:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:95  
+send_to_client
+20200924 23:29:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:29:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:29:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:29:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:29:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:29:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50781
+
+20200924 23:29:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:29:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:62  
+send_to_server	nil	nil
+20200924 23:29:21 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:29:49 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:29:49 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:29:49 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:29:49 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:29:49 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:29:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50787
+
+20200924 23:30:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:30:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1
+20200924 23:30:02 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:30:14 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:30:14 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:30:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:31:35 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:31:35 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:31:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:31:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:31:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:31:40 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50791
+
+20200924 23:31:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:31:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:31:43 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:31:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:31:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50792
+
+20200924 23:31:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:31:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:31:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:34:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:34:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:34:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:34:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:34:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:35:02 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50800
+
+20200924 23:35:05 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:35:05 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:35:05 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:35:24 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:35:24 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50803
+
+20200924 23:35:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:35:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:35:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:36:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:36:03 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50807
+
+20200924 23:36:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:98  
+send_to_server
+20200924 23:36:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:38:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:38:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:38:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:38:47 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:38:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:38:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50817
+
+20200924 23:38:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:99  
+send_to_server
+20200924 23:38:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:38:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:78  
+Session.set_utag
+20200924 23:38:59 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\proto_man_export_to_lua.cc:119  
+argc error!!
+20200924 23:38:59 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:40:17 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:40:17 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:40:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:40:17 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:40:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:40:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50826
+
+20200924 23:40:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:99  
+send_to_server
+20200924 23:40:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:40:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:78  
+Session.set_utag
+20200924 23:40:25 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:40:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:40:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50828
+
+20200924 23:40:36 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:99  
+send_to_server
+20200924 23:40:36 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:63  
+send_to_server	1	1	0
+20200924 23:40:36 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:78  
+Session.set_utag
+20200924 23:40:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:42:08 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:42:08 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:42:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:42:08 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:42:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:42:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50842
+
+20200924 23:42:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:100  
+send_to_server
+20200924 23:42:17 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\service_export_to_lua.cc:104  
+[LUA ERROR] ../../../apps/lua/scripts/gateway/gw_service.lua:63: attempt to index a userdata value (local 'client_session')
+20200924 23:43:45 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:43:45 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:43:45 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:43:45 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:43:45 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:43:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50849
+
+20200924 23:43:52 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:100  
+send_to_server
+20200924 23:43:52 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\service_export_to_lua.cc:104  
+[LUA ERROR] ../../../apps/lua/scripts/gateway/gw_service.lua:63: attempt to index a userdata value (local 'client_session')
+20200924 23:44:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:44:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:44:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:44:57 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:44:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:45:00 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50852
+
+20200924 23:45:03 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:100  
+send_to_server
+20200924 23:45:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:64  
+send_to_server	1	1	0	127.0.0.1	50852
+20200924 23:45:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:79  
+Session.set_utag
+20200924 23:45:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:45:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:45:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50853
+
+20200924 23:45:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:100  
+send_to_server
+20200924 23:45:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:64  
+send_to_server	1	1	0	127.0.0.1	50853
+20200924 23:45:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:79  
+Session.set_utag
+20200924 23:45:16 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:45:21 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:45:23 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50858
+
+20200924 23:45:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:100  
+send_to_server
+20200924 23:45:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:64  
+send_to_server	1	1	0	127.0.0.1	50858
+20200924 23:45:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:79  
+Session.set_utag
+20200924 23:45:26 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:51:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 23:51:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 23:51:10 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 23:51:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 23:51:10 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200924 23:51:19 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50873
+
+20200924 23:51:22 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:51:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:51:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50883
+
+20200924 23:51:49 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:51:58 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:51:58 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50885
+
+20200924 23:52:01 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200924 23:52:06 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:52:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:108  
+gateway disconnect: [Auth server]
+20200924 23:52:08 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200924 23:52:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000

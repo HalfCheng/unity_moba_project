@@ -1,0 +1,339 @@
+20200621 15:18:44 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:15  
+connect success
+20200621 15:18:59 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:15  
+connect success
+20200621 15:19:55 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:15  
+connect success
+20200621 15:19:55 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:112  
+close mysql
+20200621 16:28:00 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:19  
+connect success
+20200621 16:28:58 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:19  
+connect success
+20200621 16:29:18 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:19  
+connect success
+20200621 16:30:53 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 16:31:51 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 16:32:09 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 16:32:10 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:112  
+close mysql
+20200621 17:07:15 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 17:08:49 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 17:10:47 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 17:10:57 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:21  
+connect success
+20200621 17:11:35 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:11:35 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+105
+20200621 17:12:21 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:12:22 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:24  
++++++++++
+20200621 17:12:22 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+----------
+20200621 17:12:22 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+105
+20200621 17:13:46 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:14:15 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:14:18 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+105
+20200621 17:14:29 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:14:30 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+105
+20200621 17:15:24 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:22  
+connect success
+20200621 17:15:24 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+105
+20200621 17:15:39 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:19  
+connect success
+20200621 17:17:16 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:17:16 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:17:24 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:17:45 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:19:24 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:19:24 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+clos
+20200621 17:19:24 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:19:24 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:19:24 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:20:08 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:20:08 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+Lock
+20200621 17:20:08 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+Lock
+20200621 17:20:08 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:20:08 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:20:40 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:20:40 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:20:40 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:20:40 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:23:00 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:23:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+Lock,_1
+20200621 17:23:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+Lock,_1
+20200621 17:23:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:23:00 20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:23:31 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 1
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:23:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:24:43 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:24:44 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:24:44 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:24:44 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:24:44 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:24:44 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:25:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 1
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:26:06 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:26:45 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:26:45 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:26:45 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:26:45 ERROR 20200621 17:26:45 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+d:\c++\moba_game_server\moba_server\database\mysql_wrapper
+close mysql
+20200621 17:26:45 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+Lock, 0
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:27:28 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 1
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:28:36 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10   cc:108  
+query_cb!!!
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:30:00 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper
+close_work 
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:31:48 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:32:21 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 1 k
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 1
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 17:32:32 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:10  
+query_cb!!!
+20200621 17:32:37 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:32:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 1
+20200621 17:32:37 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 1
+20200621 17:32:51 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:20  
+connect success
+20200621 17:32:51 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:32:51 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:36:25 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+connect success
+20200621 17:36:25 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:36:25 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+connect success
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:11  
+query_cb!!!
+20200621 17:36:57 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+connect success
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 18:03:49 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:11  
+query_cb!!!
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+connect success
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 19:07:35 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:11  
+query_cb!!!
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:26  
+connect success
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:150  
+query_work, 0
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:104  
+close_work Lock
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:11  
+close mysql
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:108  
+close mysql
+20200621 19:28:33 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:110  
+close_work UnLock
+20200621 19:31:31 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:39  
+connect
+20200621 19:37:54 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:44  
+connect
+20200621 19:38:20 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:42  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20200621 19:38:20 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:41  
+由于目标计算机积极拒绝，无法连接。, return!
+20200621 19:39:00 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:44  
+connect
+20200621 19:39:32 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:44  
+connect
+20200621 19:39:32 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:102  
+on_close_complete
+20200621 20:22:54 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:54  
+connect
+20200621 23:33:37 DEBUG ./main.lua:1  
+Hello World!!!
+20200621 23:34:31 DEBUG ./main.lua:1  
+Hello World!!!
+20200621 23:34:31 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wapper.cc:53  
+ssssssssss
+20200621 23:42:18 DEBUG ./main.lua:1  
+Hello World!!!
+20200621 23:42:18 ERROR trunk:0  
+./main.lua:4: attempt to index a number value (local 'b')

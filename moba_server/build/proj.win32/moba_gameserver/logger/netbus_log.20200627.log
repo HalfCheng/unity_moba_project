@@ -1,0 +1,700 @@
+20200627 17:16:52 DEBUG ./main.lua:102  
+hello world!
+20200627 17:16:52 DEBUG ./main.lua:104  
+true
+20200627 17:17:10 DEBUG ./main.lua:102  
+hello world!
+20200627 17:17:10 DEBUG ./main.lua:103  
+hello world22
+20200627 17:17:10 DEBUG ./main.lua:105  
+true
+20200627 17:17:51 DEBUG ./main.lua:102  
+hello world!
+20200627 17:17:51 DEBUG ./main.lua:104  
+true
+20200627 17:18:36 DEBUG ./main.lua:104  
+hello world!
+20200627 17:18:36 DEBUG ./main.lua:109  
+true
+20200627 17:22:01 DEBUG ./main.lua:108  
+true
+20200627 17:26:34 DEBUG ./main.lua:109  
+true
+20200627 17:26:48 DEBUG ./main.lua:104  
+hello world!
+20200627 17:26:48 DEBUG ./main.lua:105  
+table
+20200627 17:26:48 DEBUG ./main.lua:109  
+true
+20200627 17:27:05 DEBUG ./main.lua:104  
+hello world!
+20200627 17:27:05 DEBUG ./main.lua:105  
+stack traceback:
+	./main.lua:105: in function 'test'
+	./main.lua:107: in main chunk
+20200627 17:27:05 DEBUG ./main.lua:109  
+true
+20200627 17:31:58 DEBUG ./main.lua:112  
+true
+20200627 17:32:09 DEBUG ./main.lua:108  
+table
+20200627 17:32:09 DEBUG ./main.lua:113  
+true
+20200627 17:35:43 DEBUG ./main.lua:108  
+table
+20200627 17:35:43 ERROR ./main.lua:109  
+table
+20200627 17:35:43 WARNING ./main.lua:110  
+table
+20200627 17:35:43 DEBUG ./main.lua:115  
+true
+20200627 17:39:05 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:39:21 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:39:34 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:42:41 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:42:46 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:67  
+on_timert
+20200627 17:42:47 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:67  
+on_timert
+20200627 17:42:48 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:67  
+on_timert
+20200627 17:42:49 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:67  
+on_timert
+20200627 17:42:50 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:67  
+on_timert
+20200627 17:43:47 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:44:37 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:113: in main chunk
+20200627 17:44:42 DEBUG ./main.lua:110  
+scheduler.schedule
+20200627 17:44:42 DEBUG ./main.lua:110  
+scheduler.schedule
+20200627 17:44:42 DEBUG ./main.lua:110  
+scheduler.schedule
+20200627 17:44:43 DEBUG ./main.lua:110  
+scheduler.schedule
+20200627 17:44:43 DEBUG ./main.lua:110  
+scheduler.schedule
+20200627 17:45:39 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:45:40 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:45:40 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:45:40 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:46:37 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:46:38 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:46:38 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:46:38 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:47:26 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:47:26 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:47:26 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:47:27 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:48:01 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:48:01 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:48:01 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:49:52 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:50:12 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:50:12 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:50:37 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:50:41 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:50:41 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:50:41 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:05 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:54:06 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:06 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:06 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:55 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:54:55 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:55 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:55 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:55 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:54:56 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:59:18 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:119: in main chunk
+20200627 17:59:18 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:59:18 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:59:18 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:59:18 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 17:59:18 DEBUG ./main.lua:116  
+scheduler.schedule
+20200627 18:00:21 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:00:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:22 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:00:33 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:00:33 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:00:34 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:14:21 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:14:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:21 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:41 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:14:42 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:42 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:42 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:42 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:42 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:14:51 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:15:50 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:15:50 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:15:50 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:15:51 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:15:51 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:15:51 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:00 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:16:21 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:16:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:22 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:16:29 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:18:34 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:18:34 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:18:34 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:18:35 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:18:35 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:18:35 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:18:42 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:21:57 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:120: in main chunk
+20200627 18:21:57 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:21:57 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:21:57 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:21:57 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:21:57 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:04 DEBUG ./main.lua:116  
+scheduler.once
+20200627 18:22:43 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:22:44 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:44 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:44 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:53 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:22:54 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:54 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:22:54 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:23:33 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:23:33 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:23:34 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:23:34 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:24:47 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:24:48 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:24:48 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:24:48 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:29:22 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:29:23 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:29:23 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:29:23 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:30:26 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:30:26 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:30:26 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:30:26 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:31:03 DEBUG ./main.lua:108  
+stack traceback:
+	./main.lua:108: in function 'test'
+	./main.lua:124: in main chunk
+20200627 18:31:04 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:31:04 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:31:04 DEBUG ./main.lua:112  
+scheduler.schedule
+20200627 18:33:12 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:75  
+on_timert
+20200627 18:33:13 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:75  
+on_timert
+20200627 18:33:14 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:75  
+on_timert
+20200627 18:33:39 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:75  
+on_timert
+20200627 18:33:39 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:75  
+on_timert
+20200627 18:38:31 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:38:31 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:38:31 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:38:32 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:38:53 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:38:56 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:38:57 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:39:05 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:04 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:40:08 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:08 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:08 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:48 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:40:57 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:40:58 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:01 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:02 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:03 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:19 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:41:20 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:26 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:41:27 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:42:53 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:42:54 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:42:54 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:42:54 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:43:13 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:43:38 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:43:39 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:43:39 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:43:39 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:44:48 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:44:49 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:44:49 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:44:49 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:45:41 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:45:41 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:45:41 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:45:42 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:46:25 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:46:26 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:46:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:46:26 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:46:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:46:26 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:46:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:125  
+lua_schedule_cancel
+20200627 18:46:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:20 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:47:21 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:47:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:21 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:47:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:21 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:47:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:124  
+lua_schedule_cancel
+20200627 18:47:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:39 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:47:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:47:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:124  
+lua_schedule_cancel
+20200627 18:47:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:48:21 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:77  
+on_timert
+20200627 18:48:22 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:77  
+on_timert
+20200627 18:48:22 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:73  
+on_timert
+20200627 18:49:06 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:49:07 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:49:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:49:07 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:49:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:49:07 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:49:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:124  
+lua_schedule_cancel
+20200627 18:49:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:35  
+on_lua_repeat_timer
+20200627 18:50:10 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:50:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:11 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:11 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:11 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:126  
+lua_schedule_cancel
+20200627 18:50:48 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:50:48 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:48 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:48 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:48 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:48 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:50:48 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:50:49 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:129  
+lua_schedule_cancel
+20200627 18:51:31 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:51:32 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:51:32 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:51:35 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:51:35 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:51:36 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:51:36 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:51:36 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:129  
+lua_schedule_cancel
+20200627 18:52:11 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:52:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:52:12 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:52:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:52:12 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:52:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:34  
+on_lua_repeat_timer
+20200627 18:52:12 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:52:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:129  
+lua_schedule_cancel
+20200627 18:54:08 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:54:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:54:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:54:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:54:09 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:123  
+lua_schedule_cancel
+20200627 18:55:41 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:56:09 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:56:10 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:56:11 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:56:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:123  
+lua_schedule_cancel
+20200627 18:56:54 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:56:59 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:56:59 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:56:59 DEBUG ./main.lua:123  
+scheduler.once
+20200627 18:56:59 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\scheduler_export_to_lua.cc:123  
+lua_schedule_cancel
+20200627 18:57:12 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:127: in main chunk
+20200627 18:57:12 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:57:12 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:57:13 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:57:13 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:57:13 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:57:15 DEBUG ./main.lua:123  
+scheduler.once
+20200627 18:58:04 DEBUG ./main.lua:111  
+stack traceback:
+	./main.lua:111: in function 'test'
+	./main.lua:128: in main chunk
+20200627 18:58:04 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:58:04 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:58:05 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:58:05 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:58:05 DEBUG ./main.lua:115  
+scheduler.schedule
+20200627 18:58:07 DEBUG ./main.lua:124  
+scheduler.once

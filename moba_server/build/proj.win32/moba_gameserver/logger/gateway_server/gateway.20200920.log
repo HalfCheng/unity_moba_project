@@ -1,0 +1,772 @@
+20200920 15:06:03 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server Start At6080
+20200920 15:06:04 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server Start At6081
+20200920 15:06:04 ERROR ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service failed!
+20200920 15:07:06 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:07:06 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:07:06 ERROR ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service failed!
+20200920 15:10:56 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:10:56 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:11:22 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:11:22 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:11:53 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:11:53 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:11:53 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 15:12:18 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:12:18 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:12:26 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:53:19 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:53:19 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:53:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [ŒËö] €Ëö : 	Auth server	127.0.0.1	8000
+20200920 22:53:19 ERROR trunk:0  
+table	../../../apps/lua/scripts/gateway/gw_service.lua:16: attempt to call a nil value (field 'tcp_Cconnect')
+20200920 22:54:08 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:54:08 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:54:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [„Ëö] xËö : 	Auth server	127.0.0.1	8000
+20200920 22:54:54 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:54:54 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:54:54 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [øÐö] ìÐö : 	Auth server	127.0.0.1	8000
+20200920 22:55:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:55:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:55:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Ìï] Ìï : 	Auth server	127.0.0.1	8000
+20200920 22:55:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:55:04 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '74272576' does not reference a lua function
+20200920 22:56:31 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:56:31 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:56:31 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [¨Ìö] œÌö : 	Auth server	127.0.0.1	8000
+20200920 22:56:31 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:56:33 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972416' does not reference a lua function
+20200920 22:56:33 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [tÙö] hÙö : 	Auth server	127.0.0.1	8000
+20200920 22:56:34 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:35 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:36 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:37 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:38 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:40 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:41 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:42 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:43 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:44 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:56:45 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:04 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:05 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:06 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:08 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:09 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:10 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:13 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:14 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:15 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:16 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:17 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:18 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:19 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:20 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:22 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:23 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75972544' does not reference a lua function
+20200920 22:57:44 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:57:44 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:57:44 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [XÎö] LÎö : 	Auth server	127.0.0.1	8000
+20200920 22:57:44 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:57:46 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [$Ûö] Ûö : 	Auth server	127.0.0.1	8000
+20200920 22:58:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:58:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:58:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [@Ìï] 4Ìï : 	Auth server	127.0.0.1	8000
+20200920 22:58:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:58:45 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76078912' does not reference a lua function
+20200920 22:58:45 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Ùï]  : 	Auth server	127.0.0.1	8000
+20200920 22:58:46 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:47 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:48 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:49 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:50 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:51 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:52 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:53 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:54 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:55 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:56 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:58:57 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '76079040' does not reference a lua function
+20200920 22:59:21 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 22:59:21 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 22:59:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [ Òï] Òï : 	Auth server	127.0.0.1	8000
+20200920 22:59:51 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 22:59:51 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [ìÞï] àÞï : 	Auth server	127.0.0.1	8000
+20200920 22:59:52 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349824' does not reference a lua function
+20200920 22:59:53 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:54 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:55 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:56 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:57 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:58 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 22:59:59 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:00 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:01 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:02 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:03 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:04 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:05 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:06 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:07 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:08 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:09 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:10 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:11 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:12 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:13 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:14 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:15 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:16 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:17 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:18 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:19 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:20 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:21 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:22 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:23 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:24 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:25 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:27 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:28 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:29 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:30 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:31 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:32 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:33 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:34 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:35 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:36 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:37 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:38 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:39 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:40 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:41 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:42 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:43 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:44 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:45 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:46 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:47 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:48 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:00:49 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:02:46 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '75349952' does not reference a lua function
+20200920 23:03:32 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:03:32 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:03:32 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [,Ìó]  Ìó : 	Auth server	127.0.0.1	8000
+20200920 23:05:22 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:05:22 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:05:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:06:43 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:06:43 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:06:44 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '77553472' does not reference a lua function
+20200920 23:06:45 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '77553600' does not reference a lua function
+20200920 23:06:46 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '77553600' does not reference a lua function
+20200920 23:06:47 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\lua_wrapper.cc:300  
+[LUA ERROR] function refid '77553600' does not reference a lua function
+20200920 23:08:07 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:08:07 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:08:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:08:29 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:10:18 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:10:18 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:10:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:18 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:10:20 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:23 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:26 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:29 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:30 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:32 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:35 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:37 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:38 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:40 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:41 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:43 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:44 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:46 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:49 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:50 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:52 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:53 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:55 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:58 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:10:59 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:01 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:04 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:05 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:07 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:10 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:13 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:16 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:19 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:22 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:25 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:28 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:31 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:32 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:34 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:37 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:11:38 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:23 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:30 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:38 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:56 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:12:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:01 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:04 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:05 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:07 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:10 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:13 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:16 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:19 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:22 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:25 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:28 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:31 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:32 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:34 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:37 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:38 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:40 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:41 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:43 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:44 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:46 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:13:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200920 23:14:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:60  
+gateway disconnect: [Auth server]
+20200920 23:14:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200920 23:15:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:15:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:15:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:15:39 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:40 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:42 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:45 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:46 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200920 23:15:53 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:60  
+gateway disconnect: [Auth server]
+20200920 23:15:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200920 23:16:16 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:16:16 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:16:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:16 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:16:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:18 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:21 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:24 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200920 23:16:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:28 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:30 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:31 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:32 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:34 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:61  
+gateway disconnect: [Auth server]
+20200920 23:16:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200920 23:16:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:36 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:38 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:39 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:40 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:41 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:42 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:44 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:45 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:46 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:47 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:48 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:49 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:50 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:52 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:53 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:54 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:55 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:56 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:57 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:58 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:16:59 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:00 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:01 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:03 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:04 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:05 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:06 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:08 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:09 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 23:17:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 23:17:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:13 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 23:17:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:15 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:15 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:61  
+gateway disconnect: [Auth server]
+20200920 23:17:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200920 23:17:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:25 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:27 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:28 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:28 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:33  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200920 23:17:30 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:31 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:29  
+chick_server_connect
+20200920 23:17:31 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:19  
+connect failed to server [Auth server] 127.0.0.1 : 8000

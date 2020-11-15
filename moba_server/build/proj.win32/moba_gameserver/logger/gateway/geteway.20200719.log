@@ -1,0 +1,12 @@
+20200719 21:28:32 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200719 21:28:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52456
+
+20200719 21:28:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200719 21:28:49 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200719 21:29:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!

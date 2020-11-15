@@ -1,0 +1,122 @@
+20200616 00:26:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:270  
+初始化成功
+20200616 00:27:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:270  
+初始化成功
+20200616 00:32:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:270  
+初始化成功
+20200616 00:45:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:276  
+初始化成功
+20200616 00:50:34 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:276  
+初始化成功
+20200616 00:50:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:276  
+初始化成功
+20200616 00:51:38 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:276  
+初始化成功
+20200616 00:57:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:276  
+初始化成功
+20200616 19:48:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:272  
+初始化成功
+20200616 19:51:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:274  
+初始化成功
+20200616 19:52:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:275  
+初始化成功
+20200616 19:53:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 19:54:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:275  
+初始化成功
+20200616 19:54:34 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 20:06:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:275  
+初始化成功
+20200616 20:07:21 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 20:08:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:20:34 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:22:00 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:22:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:22:46 DEBUG d:\c++\moba_game_server\moba_server\netbus\netbus.cc:60  
+
+20200616 21:22:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:22:55 DEBUG d:\c++\moba_game_server\moba_server\netbus\netbus.cc:60  
+
+20200616 21:23:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:23:09 DEBUG d:\c++\moba_game_server\moba_server\netbus\netbus.cc:60  
+
+20200616 21:23:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:24:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:24:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:25:40 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:26:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:26:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:27:02 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:27:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:27:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:28:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:28:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:29:41 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:29:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:29:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client command !!!
+
+20200616 21:31:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:32:07 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:33:06 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:34:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:34:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:36:02 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+
+20200616 21:36:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = Hello
+

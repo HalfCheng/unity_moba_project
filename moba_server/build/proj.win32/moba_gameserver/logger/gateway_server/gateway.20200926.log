@@ -1,0 +1,132 @@
+20200926 13:30:54 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200926 13:30:54 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200926 13:30:54 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 13:30:54 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200926 18:39:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:30  
+Server TCP Start At 6080
+20200926 18:39:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:32  
+Server WS Start At 6081
+20200926 18:39:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:41  
+register [1] service success!
+20200926 18:39:11 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20200926 18:39:13 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:15 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:16 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:18 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:30  
+Server TCP Start At 6080
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:32  
+Server WS Start At 6081
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/gateway/main.lua:41  
+register [1] service success!
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:13  
+nil
+20200926 18:39:37 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:20  
+connect to auth center db success!!!!
+20200926 18:39:39 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:40 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:42 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:43 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:45 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:46 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/gateway/main.lua:30  
+Server TCP Start At 6080
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/gateway/main.lua:32  
+Server WS Start At 6081
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/gateway/main.lua:41  
+register [1] service success!
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:13  
+nil	lightuserdata
+20200926 18:39:55 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:20  
+connect to auth center db success!!!!
+20200926 18:39:57 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:39:58 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:00 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:01 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:30  
+Server TCP Start At 6080
+20200926 18:40:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:32  
+Server WS Start At 6081
+20200926 18:40:10 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:10 DEBUG ../../../apps/lua/scripts/gateway/main.lua:41  
+register [1] service success!
+20200926 18:40:11 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20200926 18:40:13 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:16 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:19 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:20 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:22 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:23 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:25 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:28 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:29 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:31 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:32 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:34 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 18:40:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 21:29:35 DEBUG ../../../apps/lua/scripts/gateway/main.lua:30  
+Server TCP Start At 6080
+20200926 21:29:35 DEBUG ../../../apps/lua/scripts/gateway/main.lua:32  
+Server WS Start At 6081
+20200926 21:29:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 21:29:35 DEBUG ../../../apps/lua/scripts/gateway/main.lua:41  
+register [1] service success!
+20200926 21:29:35 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20200926 21:29:37 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20200926 21:29:38 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:39  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200926 21:29:40 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:26  
+connect failed to server [Auth server] 127.0.0.1 : 8000

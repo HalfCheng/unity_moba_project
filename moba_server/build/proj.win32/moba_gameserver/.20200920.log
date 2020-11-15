@@ -1,0 +1,44 @@
+20200920 13:34:41 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:35:09 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:36:53 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:40:23 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:40:23 ERROR d:\c++\moba_game_server\moba_server\apps\lua\main.cc:27  
+ERROR to Read the main.lua: tú,
+20200920 13:40:34 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:40:40 ERROR d:\c++\moba_game_server\moba_server\apps\lua\main.cc:27  
+ERROR to Read the main.lua: 0þU
+20200920 13:40:49 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:40:54 ERROR d:\c++\moba_game_server\moba_server\apps\lua\main.cc:27  
+ERROR to Read the main.lua: ôùU
+20200920 13:41:07 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:42:11 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:42:44 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:43:02 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:43:46 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:44:05 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/talkroom/main.lua: No such file or directory
+20200920 13:44:53 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:45:06 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:45:20 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:45:33 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:45:47 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:46:00 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory
+20200920 13:49:12 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory

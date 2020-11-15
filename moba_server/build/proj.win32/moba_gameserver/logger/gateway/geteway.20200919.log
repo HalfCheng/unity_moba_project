@@ -1,0 +1,606 @@
+20200919 13:06:00 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:06:00 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:06:12 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51696
+
+20200919 13:06:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 13:06:21 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:51700
+
+20200919 13:06:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 13:07:21 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:07:21 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:09:15 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:10:19 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:10:19 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:10:32 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:12:57 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:12:57 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:19:09 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:19:09 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:19:28 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:19:28 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:20:28 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:20:28 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:20:45 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:20:45 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:21:07 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:21:07 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:21:13 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:21:13 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:23:07 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:23:07 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:23:31 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:23:31 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:24:01 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:24:01 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:26:03 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:26:32 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:26:33 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:28:12 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:28:12 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:28:57 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:28:57 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:30:38 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:30:38 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:31:33 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:31:33 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:32:11 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:32:12 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:32:24 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:32:24 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:34:06 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:34:06 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:34:49 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:34:49 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:35:10 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:35:11 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:35:35 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:35:35 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:35:54 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:35:54 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:36:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52639
+
+20200919 13:36:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 13:36:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52644
+
+20200919 13:37:29 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:37:29 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:43:27 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:43:27 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:43:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52736
+
+20200919 13:43:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 13:44:17 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:44:17 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:44:23 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52741
+
+20200919 13:44:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 13:44:51 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:44:52 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:45:06 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:45:06 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:45:21 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:45:22 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:45:34 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:45:34 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:45:52 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:45:52 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:46:05 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:46:05 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:46:18 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:46:18 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:46:32 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:46:32 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:46:46 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:46:46 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:47:04 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:47:04 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:47:21 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:47:21 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:47:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52753
+
+20200919 13:47:49 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:47:49 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:48:00 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52757
+
+20200919 13:48:11 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:48:12 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:48:31 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:48:32 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:48:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52759
+
+20200919 13:49:43 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:49:43 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:49:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52761
+
+20200919 13:51:06 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:51:06 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:51:28 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:51:29 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:51:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52777
+
+20200919 13:52:17 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:52:17 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:52:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52781
+
+20200919 13:54:35 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:54:35 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:54:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52789
+
+20200919 13:56:13 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:56:13 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:57:49 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:57:49 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 13:59:34 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 13:59:34 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:00:01 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:00:01 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:00:36 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:00:36 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:01:20 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:01:21 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:02:43 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:02:44 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:03:16 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:03:17 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:04:58 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:04:58 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:05:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52832
+
+20200919 14:05:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 14:05:46 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:05:46 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:05:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52838
+
+20200919 14:06:02 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 14:06:40 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:06:41 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:06:56 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:06:57 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:07:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52844
+
+20200919 14:07:57 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:07:57 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:08:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52849
+
+20200919 14:08:45 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:08:46 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:08:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52851
+
+20200919 14:08:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:08:59 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 14:09:26 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:09:26 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\service_export_to_lua.cc:104  
+[LUA ERROR] ../../../apps/lua_test/scripts/trm_server.lua:56: attempt to index a nil value (global 'logger')
+20200919 14:11:22 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:11:22 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:11:28 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52856
+
+20200919 14:11:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:11:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 14:11:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:11:36 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\service_export_to_lua.cc:104  
+[LUA ERROR] ../../../apps/lua_test/scripts/trm_server.lua:56: attempt to index a nil value (global 'logger')
+20200919 14:12:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 14:12:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52862
+
+20200919 14:12:15 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:12:15 ERROR d:\c++\moba_game_server\moba_server\lua_wapper\service_export_to_lua.cc:104  
+[LUA ERROR] ../../../apps/lua_test/scripts/trm_server.lua:56: attempt to index a nil value (global 'logger')
+20200919 14:12:25 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 14:12:25 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 14:12:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52864
+
+20200919 14:12:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:12:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 14:12:35 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:12:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 14:12:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 14:12:37 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 14:12:37 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:40:06 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 15:40:06 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 15:41:59 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:60779
+
+20200919 15:42:24 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:60910
+
+20200919 15:42:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:27 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:42:27 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:28 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:28 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:30 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:30 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:34 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:34 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:42:34 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:34 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:39 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:42:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:42:56 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:42:56 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:43:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 15:43:18 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:43:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 15:48:03 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200919 15:48:03 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200919 15:48:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:62688
+
+20200919 15:48:12 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:48:12 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:34 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:62813
+
+20200919 15:48:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:48:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:40 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:48:40 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:48:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:48:45 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:48:45 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:45 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:48:52 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:48:52 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:48:52 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:16 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:16 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:16 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:18 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:18 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:18 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:21 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:21 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:21 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:21 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:23 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:23 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:23 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:23 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:25 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:25 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:25 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:27 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:27 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:27 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200919 15:49:29 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:56  
+on_recv_send_msg_cmd
+20200919 15:49:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200919 15:49:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200919 15:49:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!

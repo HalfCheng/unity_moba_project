@@ -1,0 +1,307 @@
+20200705 00:54:45 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 00:54:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:252  
+new client comming 127.0.0.1:51150
+
+20200705 00:55:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 01:00:05 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 01:00:17 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:252  
+new client comming 127.0.0.1:51165
+
+20200705 01:00:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 01:03:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:252  
+new client comming 127.0.0.1:51175
+
+20200705 01:03:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 01:05:33 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 01:05:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:252  
+new client comming 127.0.0.1:51192
+
+20200705 01:05:41 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:196  
+client close!!
+20200705 14:03:02 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:03:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:54883
+
+20200705 14:03:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:04:04 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:04:08 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:54905
+
+20200705 14:04:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:09:37 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:09:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:54921
+
+20200705 14:09:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:09:48 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:2  
+1	1
+20200705 14:09:48 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+0
+20200705 14:09:48 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+hws
+20200705 14:09:48 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+1770799643@qq.com
+20200705 14:09:48 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:8  
+27
+20200705 14:10:56 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:11:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:54926
+
+20200705 14:11:10 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:11:10 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:11:10 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:11:10 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:11:10 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:21:05 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:21:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55354
+
+20200705 14:21:17 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:21:17 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:21:17 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:21:17 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:21:17 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:21:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55359
+
+20200705 14:21:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:21:25 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:21:25 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:21:25 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:21:25 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:21:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:21:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:21:50 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:22:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55410
+
+20200705 14:22:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55412
+
+20200705 14:22:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55415
+
+20200705 14:22:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:22:53 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:22:53 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:22:53 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:22:53 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:22:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55416
+
+20200705 14:22:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55417
+
+20200705 14:22:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55418
+
+20200705 14:22:53 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55419
+
+20200705 14:22:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:22:55 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:22:55 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:22:55 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:22:55 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:22:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:23:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55431
+
+20200705 14:23:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55432
+
+20200705 14:23:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:23:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:24:26 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55440
+
+20200705 14:24:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55441
+
+20200705 14:24:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:24:31 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:24:31 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:24:31 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:24:31 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:24:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:24:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:25:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55449
+
+20200705 14:25:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:25:18 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:25:18 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:25:18 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:25:18 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:25:20 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:26:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55461
+
+20200705 14:26:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:26:11 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:26:11 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:26:11 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:26:11 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:26:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:26:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55472
+
+20200705 14:27:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:27:01 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype == 	1	ctype ==	1	name ==	hws
+20200705 14:27:01 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:4  
+0
+20200705 14:27:01 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:6  
+1770799643@qq.com
+20200705 14:27:01 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:7  
+27
+20200705 14:27:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 14:45:53 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 14:46:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:55516
+
+20200705 14:46:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 14:46:14 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200705 18:07:01 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 18:10:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:50458
+
+20200705 18:10:15 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 18:10:15 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200705 18:10:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 18:12:13 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 18:12:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:50486
+
+20200705 18:12:23 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 18:12:23 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200705 18:12:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 18:13:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:50493
+
+20200705 18:13:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 18:13:11 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200705 18:13:11 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200705 18:14:20 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200705 18:14:26 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:50506
+
+20200705 18:14:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200705 18:14:31 DEBUG ../../../apps/lua_test/scripts/echo_server.lua:3  
+stype ==	1	ctype ==	1	name ==	hws
+20200705 18:14:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!

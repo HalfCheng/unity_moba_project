@@ -1,0 +1,90 @@
+20200704 12:33:52 DEBUG ../../../apps/lua_test/scripts/main.lua:21  
+start service success!!!
+20200704 12:45:02 ERROR trunk:0  
+../../../apps/lua_test/scripts/main.lua:13: module 'cmd_name_map' not found:
+	no field package.preload['cmd_name_map']
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map\init.lua'
+	no file '.\cmd_name_map.lua'
+	no file '.\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\lib\lua\5.3\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\loadall.dll'
+	no file '.\cmd_name_map.dll'
+20200704 12:45:09 ERROR trunk:0  
+../../../apps/lua_test/scripts/main.lua:13: module 'cmd_name_map' not found:
+	no field package.preload['cmd_name_map']
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map\init.lua'
+	no file '.\cmd_name_map.lua'
+	no file '.\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\lib\lua\5.3\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\loadall.dll'
+	no file '.\cmd_name_map.dll'
+20200704 12:45:28 ERROR trunk:0  
+../../../apps/lua_test/scripts/main.lua:13: module 'cmd_name_map' not found:
+	no field package.preload['cmd_name_map']
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\lua\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\share\lua\5.3\cmd_name_map\init.lua'
+	no file '.\cmd_name_map.lua'
+	no file '.\cmd_name_map\init.lua'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\..\lib\lua\5.3\cmd_name_map.dll'
+	no file 'D:\C++\moba_game_server\moba_server\build\proj.win32\Debug\loadall.dll'
+	no file '.\cmd_name_map.dll'
+20200704 12:48:29 DEBUG ../../../apps/lua_test/scripts/main.lua:31  
+start service success!!!
+20200704 12:48:51 DEBUG ../../../apps/lua_test/scripts/main.lua:15  
+cmd_map
+20200704 12:48:51 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+start service success!!!
+20200704 12:58:27 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 12:58:46 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 13:02:45 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 13:04:34 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 13:10:12 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 16:46:26 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 16:47:38 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 16:47:43 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:251  
+new client comming 127.0.0.1:52663
+
+20200704 17:43:15 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 17:43:18 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:251  
+new client comming 127.0.0.1:53473
+
+20200704 17:49:32 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 17:49:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:251  
+new client comming 127.0.0.1:53524
+
+20200704 17:50:51 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 17:50:57 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:251  
+new client comming 127.0.0.1:53543
+
+20200704 17:52:21 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200704 17:52:25 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:251  
+new client comming 127.0.0.1:53558
+

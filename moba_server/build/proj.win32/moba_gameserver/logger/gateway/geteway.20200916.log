@@ -1,0 +1,71 @@
+20200916 23:48:19 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200916 23:48:19 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200916 23:48:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52363
+
+20200916 23:48:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:37 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:41 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:42 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:48 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:48  
+trm_session_disconnect :127.0.0.1 : 52363
+20200916 23:48:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200916 23:48:52 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52374
+
+20200916 23:48:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:48:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:49:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:49:22 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:48  
+trm_session_disconnect :127.0.0.1 : 52374
+20200916 23:49:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!
+20200916 23:49:27 DEBUG ../../../apps/lua_test/scripts/main.lua:27  
+start service success!!!
+20200916 23:49:27 DEBUG ../../../apps/lua_test/scripts/main.lua:32  
+register trm_service success!
+20200916 23:50:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:258  
+new client comming 127.0.0.1:52389
+
+20200916 23:50:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:50:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:50:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:50:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:20  
+client recv = 
+
+20200916 23:51:01 DEBUG ../../../apps/lua_test/scripts/trm_server.lua:48  
+trm_session_disconnect :127.0.0.1 : 52389
+20200916 23:51:01 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:202  
+client close!!

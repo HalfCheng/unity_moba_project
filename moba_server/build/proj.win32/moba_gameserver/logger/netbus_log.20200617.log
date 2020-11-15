@@ -1,0 +1,66 @@
+20200617 00:10:39 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:11:13 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:11:51 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:11:51 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:12:57 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:12:57 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:14:12 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:14:12 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:15:14 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:56  
+connect mysql error
+20200617 00:15:32 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:17:53 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:17:53 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:18:40 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:18:40 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:18:58 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:18:58 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:19:21 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:19:21 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:19:31 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:19:31 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:23:42 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:23:49 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:24:28 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:24:37 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:24:52 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:24:52 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:25:51 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:25:51 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 00:27:03 ERROR d:\c++\moba_game_server\moba_server\database\mysql_wrapper.cc:57  
+connect mysql error
+20200617 00:27:03 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 23:35:47 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 23:51:23 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
+20200617 23:57:08 ERROR d:\c++\moba_game_server\moba_server\apps\test\main.cc:12  
+connect mysql error!!!
