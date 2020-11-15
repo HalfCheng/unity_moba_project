@@ -15,14 +15,14 @@ remove_servers[Stype.Auth] = {
     desic = "Auth server",
 }
 
---[[
+
 remove_servers[Stype.System] = {
     stype = Stype.System,
     ip = "127.0.0.1",
     port = 8001,
     desci = "System server",
 }
-]]
+
 
 --配置
 local game_config = {
@@ -40,7 +40,6 @@ local game_config = {
         db_name = "auth_center",
         uname = "root",
         upwd = "123456",
-
     },
     
     center_redis = {

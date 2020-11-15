@@ -1,0 +1,11 @@
+20201115 23:48:24 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:48:24 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:48:24 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:48:26 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:48:26 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。

@@ -1,0 +1,10 @@
+20200924 22:33:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200924 22:33:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200924 22:33:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:32  
+connection to server [Auth server] 127.0.0.1 : 8000
+20200924 22:33:11 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200924 22:33:11 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:22  
+connect success to server [Auth server] 127.0.0.1 : 8000

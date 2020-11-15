@@ -1,0 +1,306 @@
+20201115 22:06:17 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 22:06:17 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 22:06:17 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 22:06:17 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50453
+
+20201115 22:06:19 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 22:06:19 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 22:06:26 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 22:06:26 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 22:06:33 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 22:06:33 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 22:06:40 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 22:06:40 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 22:06:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 22:06:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 22:06:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50497
+
+20201115 22:07:36 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201115 22:07:50 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 22:07:50 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 22:07:50 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50509
+
+20201115 22:08:06 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+QgR7QjSHc9OlnhzU4XapVsJ7P4ITaOb6
+20201115 22:08:06 ERROR ../../../apps/lua/scripts/auth_server/guest.lua:31  
+mysql is not connected!
+20201115 22:08:06 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 22:08:10 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+qQ2LSc8OCTHgv3L4UyLGBjeGKGuMhlgh
+20201115 22:08:10 ERROR ../../../apps/lua/scripts/auth_server/guest.lua:31  
+mysql is not connected!
+20201115 22:08:10 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:43:06 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:43:06 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:43:06 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:43:06 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51758
+
+20201115 23:43:08 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:43:08 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:43:15 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:43:15 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:43:16 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:43:16 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:43:16 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:43:16 ERROR ../../../apps/lua/scripts/database/redis_center.lua:36  
+redis center disconnected
+20201115 23:43:16 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:43:22 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:43:22 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:43:29 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:43:29 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:43:36 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:43:36 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:43:41 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:25  
+connect to redis center db success!!!!
+20201115 23:43:41 ERROR ../../../apps/lua/scripts/database/redis_center.lua:27  
+select db_idx
+20201115 23:43:49 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:43:49 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:43:49 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_43 unick gst101126 usex 0 uface 6 uvip 0 is_guest 1
+20201115 23:43:49 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:44:32 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:44:32 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:44:32 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_43 unick gst101126 usex 0 uface 6 uvip 0 is_guest 1
+20201115 23:44:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:44:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201115 23:54:16 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:54:16 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:54:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51847
+
+20201115 23:54:16 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:54:18 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:18 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:25 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:25 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:32 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:32 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:39 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:39 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:46 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:46 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:53 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:54:53 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:54:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201115 23:55:05 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:55:05 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:55:05 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51878
+
+20201115 23:55:05 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:55:07 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:07 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:13 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:55:13 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:55:13 ERROR ../../../apps/lua/scripts/database/redis_center.lua:36  
+redis center disconnected
+20201115 23:55:13 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:55:14 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:14 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:21 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:21 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:28 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:28 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:35 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:35 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:42 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:42 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:49 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:49 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:55:56 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:55:56 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:56:02 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:56:02 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:56:02 ERROR ../../../apps/lua/scripts/database/redis_center.lua:36  
+redis center disconnected
+20201115 23:56:02 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:56:03 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:56:03 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:56:10 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:56:10 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:56:17 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201115 23:56:17 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。
+20201115 23:58:33 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:58:33 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:58:33 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:25  
+connect to redis center db success!!!!
+20201115 23:58:33 ERROR ../../../apps/lua/scripts/database/redis_center.lua:27  
+select db_idx
+20201115 23:58:33 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:58:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51932
+
+20201115 23:58:39 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:58:39 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:58:39 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_43 unick gst101126 usex 0 uface 6 uvip 0 is_guest 1
+20201115 23:58:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:59:02 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:59:02 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:59:02 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_43 unick gst101126 usex 0 uface 6 uvip 0 is_guest 1
+20201115 23:59:02 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201115 23:59:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201115 23:59:31 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201115 23:59:31 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201115 23:59:31 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:25  
+connect to redis center db success!!!!
+20201115 23:59:31 ERROR ../../../apps/lua/scripts/database/redis_center.lua:27  
+select db_idx
+20201115 23:59:32 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201115 23:59:32 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51948
+
+20201115 23:59:42 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+rF5mzSf5Acjha6Vr1GHVhdNAbkV1pcjq
+20201115 23:59:42 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:197  
+1	0
+20201115 23:59:42 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_43 unick gst101126 usex 0 uface 6 uvip 0 is_guest 1
+20201115 23:59:42 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+

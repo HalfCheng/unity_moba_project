@@ -17,11 +17,12 @@ public class login_scene : MonoBehaviour
 
     private void on_login_success(string name, object udata)
     {
-        SceneManager.LoadScene("home_scene");
+        // SceneManager.LoadScene("home_scene");
+        Debug.Log("load game data...");
+        system_server.Instance.load_user_ugame_info();
     }
     void Start()
     {
-        user_login.Instance.Init();
         this.guest_btn.onClick.AddListener(this.on_guest_login_click);
         this.log_btn.onClick.AddListener(this.on_uname_login_click);
         event_manager.Instance.add_event_listener("login_success", this.on_login_success);

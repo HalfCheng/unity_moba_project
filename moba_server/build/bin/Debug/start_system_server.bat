@@ -1,0 +1,1 @@
+moba_gameserver.exe ../../../apps/lua/scripts/ system_server/main.lua

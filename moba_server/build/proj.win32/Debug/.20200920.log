@@ -1,0 +1,4 @@
+20200920 13:47:38 ERROR trunk:0  
+cannot open ../../../apps/lua_test/scripts/main.lua: No such file or directory
+20200920 13:47:57 ERROR trunk:0  
+cannot open ../../../apps/luax/scripts/talkroom/main.lua: No such file or directory

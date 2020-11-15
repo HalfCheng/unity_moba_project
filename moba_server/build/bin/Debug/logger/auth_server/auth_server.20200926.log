@@ -1,0 +1,104 @@
+20200926 13:31:18 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 13:31:18 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 13:31:19 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50501
+
+20200926 13:31:29 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	nil
+20200926 13:31:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20200926 13:31:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200926 18:35:25 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:35:25 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:35:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:35:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:35:53 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:35:53 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:36:03 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:36:03 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:37:01 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:37:01 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:40:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:40:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 18:41:23 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 18:41:23 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:35:57 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 22:35:57 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:36:12 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50626
+
+20200926 22:40:16 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200926 22:40:23 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50653
+
+20200926 22:40:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50659
+
+20200926 22:40:55 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 22:40:55 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:40:56 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50664
+
+20200926 22:41:03 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50667
+
+20200926 22:41:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 22:41:54 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:41:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50674
+
+20200926 22:42:05 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	table
+20200926 22:42:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 22:42:37 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:42:38 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50684
+
+20200926 22:42:42 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	7tzGyuCtgYVcHOBrzut8sXKQ4YFPjm8u
+20200926 22:42:44 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	upVi1CKWgcCJRGksc7mw9nmEDFD3piLr
+20200926 22:42:45 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	PSxtlrQOqGfhA55KkpVpa6t556WGx4Cd
+20200926 22:42:45 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:12  
+1	1	1	Y9d3dGSDPs47oD85WrFPDIfSNSFE0TVV
+20200926 22:42:49 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20200926 22:51:02 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200926 22:51:02 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20200926 22:51:03 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50719
+
+20200926 22:51:08 DEBUG ../../../apps/lua/scripts/auth_server/auth_service.lua:16  
+1	1	1	x0HjUSnOpoY8xztJ1RvBDytLNmyi2GMA
+20200926 22:51:08 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:8  
+x0HjUSnOpoY8xztJ1RvBDytLNmyi2GMA

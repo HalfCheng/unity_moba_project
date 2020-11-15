@@ -1,0 +1,8 @@
+20200920 15:27:41 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:27:41 ERROR ../../../apps/lua/scripts/auth_server/main.lua:36  
+register Auth service:[1] failed!!!
+20200920 15:28:06 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20200920 15:28:06 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!

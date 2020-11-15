@@ -1,0 +1,35 @@
+20201115 23:55:54 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201115 23:55:54 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201115 23:55:54 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51913
+
+20201115 23:56:02 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:15  
+2	9	2
+20201115 23:57:05 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201115 23:57:05 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201115 23:58:30 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201115 23:58:30 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201115 23:58:31 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51933
+
+20201115 23:58:39 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:15  
+2	9	1
+20201115 23:59:02 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:15  
+2	9	1
+20201115 23:59:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201115 23:59:33 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201115 23:59:33 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201115 23:59:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51953
+
+20201115 23:59:42 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:15  
+2	9	1

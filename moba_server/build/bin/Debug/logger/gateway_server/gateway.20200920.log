@@ -1,0 +1,12 @@
+20200920 15:27:39 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:27:39 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:27:39 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!
+20200920 15:28:04 DEBUG ../../../apps/lua/scripts/gateway/main.lua:27  
+Server TCP Start At 6080
+20200920 15:28:04 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server WS Start At 6081
+20200920 15:28:04 DEBUG ../../../apps/lua/scripts/gateway/main.lua:38  
+register [1] service success!

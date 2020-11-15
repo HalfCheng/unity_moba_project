@@ -1,3 +1,4 @@
+--协议名字，，注意不是 Cmd名字
 local cmd_name_map = {
     "GuestLoginReq",
     "GuestLoginRes",
@@ -10,7 +11,9 @@ local cmd_name_map = {
     "UnameLoginReq",
     "UnameLoginRes",
     "LoginOutReq",
-    "LoginOutRes"
+    "LoginOutRes",
+    "GetUgameInfoReq",
+    "GetUgameInfoRes",
 }
 
 return cmd_name_map

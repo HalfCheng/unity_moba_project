@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,10 +10,10 @@ public class GameManager : MonoBehaviour
         event_manager.Instance.Init();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        user_login.Instance.Init();
+        system_server.Instance.Init();
     }
 
     private void OnDisable()
