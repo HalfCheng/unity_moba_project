@@ -7,6 +7,8 @@ public class home_scene : MonoBehaviour
     public Text unick;
     public Image header;
     public Sprite[] uface_img;
+    public Text uchip_lable;
+    public Text diamond_lable;
 
     public GameObject uinfo_dlg_prefab;
 
@@ -16,6 +18,9 @@ public class home_scene : MonoBehaviour
         this.sync_uinfo("sync_uinfo", null);
 
         event_manager.Instance.add_event_listener("login_out", this.on_user_login_out);
+        
+        event_manager.Instance.add_event_listener("sync_ugame_info", this.sync_ugame_info);
+        this.sync_ugame_info("sync_ugame_info", null);
     }
 
     private void on_user_login_out(string name, object udata)
@@ -32,6 +37,24 @@ public class home_scene : MonoBehaviour
             this.header.sprite = this.uface_img[ugame.Instance.uface - 1];
     }
 
+    /// <summary>
+    /// 负责同步事件
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="udata"></param>
+    private void sync_ugame_info(string name, object udata)
+    {
+        if (this.uchip_lable)
+        {
+            this.uchip_lable.text = ugame.Instance.ugame_info.uchip.ToString();
+        }
+
+        if (this.diamond_lable)
+        {
+            this.diamond_lable.text = ugame.Instance.ugame_info.uchip2.ToString();
+        }
+    }
+    
     public void on_uinfo_click()
     {
         GameObject uinfo_dlg = GameObject.Instantiate(this.uinfo_dlg_prefab);
@@ -42,5 +65,6 @@ public class home_scene : MonoBehaviour
     {
         event_manager.Instance.remove_event_listener("sync_uinfo", this.sync_uinfo);
         event_manager.Instance.remove_event_listener("login_out", this.on_user_login_out);
+        event_manager.Instance.remove_event_listener("sync_ugame_info", this.sync_ugame_info);
     }
 }

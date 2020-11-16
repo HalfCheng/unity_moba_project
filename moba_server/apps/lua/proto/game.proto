@@ -78,7 +78,7 @@ message LoginOutRes{
   required int32 status = 1;
 }
 
-message GetUgameInfoRes{
+message UserGameInfo{
   required int32 uchip = 1;
   required int32 uexp = 2;
   required int32 uvip = 3;
@@ -87,4 +87,9 @@ message GetUgameInfoRes{
   required int32 udata1 = 6;
   required int32 udata2 = 7;
   required int32 udata3 = 8;
+}
+
+message GetUgameInfoRes{
+  required int32 status = 1;
+  optional UserGameInfo uinfo = 2;
 }

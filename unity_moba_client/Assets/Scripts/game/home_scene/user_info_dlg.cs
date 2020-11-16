@@ -68,7 +68,7 @@ public class user_info_dlg : MonoBehaviour
     //用户注销
     public void on_user_login_out_click()
     {
-        user_login.Instance.user_login_out();
+        auth_service_proxy.Instance.user_login_out();
         GameObject.Destroy(this.gameObject);
     }
     
@@ -128,7 +128,7 @@ public class user_info_dlg : MonoBehaviour
         }
 
         //TODO 提交修改资料请求到服务器
-        user_login.Instance.edit_profile(this.unick_edit.text, this.uface, this.usex);
+        auth_service_proxy.Instance.edit_profile(this.unick_edit.text, this.uface, this.usex);
         this.on_close_uinfo_dlg_click();
         //end
     }
@@ -164,6 +164,6 @@ public class user_info_dlg : MonoBehaviour
         }
 
         string md5_pwsv = utils.md5(upwd);
-        user_login.Instance.do_account_upgrade(this.uname_edit.text, md5_pwsv);
+        auth_service_proxy.Instance.do_account_upgrade(this.uname_edit.text, md5_pwsv);
     }
 }

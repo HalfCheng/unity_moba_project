@@ -19,14 +19,22 @@ public class login_scene : MonoBehaviour
     {
         // SceneManager.LoadScene("home_scene");
         Debug.Log("load game data...");
-        system_server.Instance.load_user_ugame_info();
+        system_server_proxy.Instance.load_user_ugame_info();
     }
+
+    private void on_get_ugame_info_success(string name, object udata)
+    {
+        SceneManager.LoadScene("home_scene");
+    }
+    
     void Start()
     {
         this.guest_btn.onClick.AddListener(this.on_guest_login_click);
         this.log_btn.onClick.AddListener(this.on_uname_login_click);
-        event_manager.Instance.add_event_listener("login_success", this.on_login_success);
         this.uname_Field.text = PlayerPrefs.GetString("moba_name_key");
+
+        event_manager.Instance.add_event_listener("login_success", this.on_login_success);
+        event_manager.Instance.add_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
     }
 
     // Update is called once per frame
@@ -38,18 +46,20 @@ public class login_scene : MonoBehaviour
         {
             return;
         }
+
         PlayerPrefs.SetString("moba_name_key", name);
-        user_login.Instance.uname_login(name, upwd);
+        auth_service_proxy.Instance.uname_login(name, upwd);
     }
 
     void OnDestroy()
     {
-        event_manager.Instance.remove_event_listener("login_success", this.on_login_success);   
+        event_manager.Instance.remove_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
+        event_manager.Instance.remove_event_listener("login_success", this.on_login_success);
     }
-    
+
     public void on_guest_login_click()
     {
         // this.guest_btn.interactable = false;
-        user_login.Instance.guest_login();
+        auth_service_proxy.Instance.guest_login();
     }
 }

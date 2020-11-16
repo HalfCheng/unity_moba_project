@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        user_login.Instance.Init();
-        system_server.Instance.Init();
+        auth_service_proxy.Instance.Init();
+        system_server_proxy.Instance.Init();
     }
 
     private void OnDisable()

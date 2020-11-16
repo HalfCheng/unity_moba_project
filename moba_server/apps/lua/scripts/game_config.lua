@@ -15,7 +15,6 @@ remove_servers[Stype.Auth] = {
     desic = "Auth server",
 }
 
-
 remove_servers[Stype.System] = {
     stype = Stype.System,
     ip = "127.0.0.1",
@@ -41,7 +40,15 @@ local game_config = {
         uname = "root",
         upwd = "123456",
     },
-    
+
+    game_mysql = {
+        host = "127.0.0.1",
+        port = 3306,
+        db_name = "moba_game",
+        uname = "root",
+        upwd = "123456",
+    },
+
     center_redis = {
         host = "127.0.0.1", --redis所在的host
         port = 6379, --redis 端口

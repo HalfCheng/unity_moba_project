@@ -6,9 +6,10 @@
 
 local Stype = require("Stype")
 local Cmd = require("Cmd")
+local ugame = require("system_server/ugame")
 
 local system_service_handlers = {}
-
+system_service_handlers[Cmd.eGetUgameInfoReq] = ugame.get_ugame_info
 
 --{stype, ctype, utag, body}
 local function on_system_recv_cmd(s, msg)
