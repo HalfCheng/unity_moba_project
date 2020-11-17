@@ -12,6 +12,10 @@ public class home_scene : MonoBehaviour
 
     public GameObject uinfo_dlg_prefab;
 
+    public Text ulevel_label;
+    public Text express_label;
+    public Image express_process;
+
     private void Start()
     {
         event_manager.Instance.add_event_listener("sync_uinfo", this.sync_uinfo);
@@ -52,6 +56,24 @@ public class home_scene : MonoBehaviour
         if (this.diamond_lable)
         {
             this.diamond_lable.text = ugame.Instance.ugame_info.uchip2.ToString();
+        }
+        
+        //计算我们的等级信息，并显示出来
+        int now_exp, next_level_exp;
+        int level = ulevel.Instance.get_level_info(ugame.Instance.ugame_info.uexp, out now_exp, out next_level_exp);
+        if (this.ulevel_label)
+        {
+            this.ulevel_label.text = "LV\n" + level;
+        }
+
+        if (this.express_label)
+        {
+            this.express_label.text = now_exp + " / " + next_level_exp;
+        }
+
+        if (this.express_process)
+        {
+            this.express_process.fillAmount = (float) now_exp / (float) next_level_exp;
         }
     }
     

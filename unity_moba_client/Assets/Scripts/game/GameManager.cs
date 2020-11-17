@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     {
         auth_service_proxy.Instance.Init();
         system_server_proxy.Instance.Init();
+        ulevel.Instance.Init();
     }
 
     private void OnDisable()

@@ -1013,6 +1013,9 @@ MonoBehaviour:
   diamond_lable: {fileID: 910577710}
   uinfo_dlg_prefab: {fileID: 213102690870620400, guid: 8b7ebbe79531f2c4aadebf83e45a2809,
     type: 3}
+  ulevel_label: {fileID: 1049985116}
+  express_label: {fileID: 975614886}
+  express_process: {fileID: 252971030}
 --- !u!1 &617871138
 GameObject:
   m_ObjectHideFlags: 0

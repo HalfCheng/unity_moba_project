@@ -27,7 +27,6 @@ public class system_server_proxy : Singleton<system_server_proxy>
     private void on_system_server_return(cmd_msg msg)
     {
         Cmd ctype = (Cmd) msg.ctype;
-        Debug.LogError(ctype);
         switch (ctype)
         {
             case Cmd.eGetUgameInfoRes:
