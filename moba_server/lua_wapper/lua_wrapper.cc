@@ -9,6 +9,7 @@
 #include "lua_wrapper.h"
 #include "netbus_export_to_lua.h"
 #include "proto_man_export_to_lua.h"
+#include "utils_export_to_lua.h"
 
 lua_State* g_lua_state = NULL;
 
@@ -268,6 +269,7 @@ void lua_wrapper::init()
 	register_netbus_export(g_lua_state);
 	register_proto_man_export(g_lua_state);
 	register_raw_cmd_export(g_lua_state);
+	register_utils_export(g_lua_state);
 }
 
 void lua_wrapper::exit()

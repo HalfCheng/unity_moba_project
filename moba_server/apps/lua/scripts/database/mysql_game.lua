@@ -34,7 +34,7 @@ local function get_ugame_info(uid, ret_handler)
         end
         return
     end
-    
+
     local sql = "select uid, uchip, uchip2, uchip3, uvip, uvip_endtime, udata1, udata2, udata3, uexp, ustatus from ugame where uid = %d limit 1";
     local sql_cmd = string.format(sql, uid)
 
@@ -93,9 +93,89 @@ local function insert_ugame_info(uid, ret_handler)
     end)
 end
 
+local function get_bonues_info(uid, ret_handler)
+    if mysql_conn == nil then
+        if ret_handler then
+            ret_handler("mysql is not connected!", nil)
+        end
+        return
+    end
+    local sql = "select uid, bonues, status, bonues_time, days from login_bonues where uid = %d limit 1";
+    local sql_cmd = string.format(sql, uid)
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if err then
+            if ret_handler then
+                ret_handler(err, nil)
+            end
+            return
+        end
+
+        --没有这条记录
+        if ret == nil or #ret <= 0 then
+            if ret_handler then
+                ret_handler(nil, nil)
+            end
+            return
+        end
+        local result = ret[1]
+        local bonues_info = {
+            uid = tonumber(result[1]),
+            bonues = tonumber(result[2]),
+            status = tonumber(result[3]),
+            bonues_time = tonumber(result[4]),
+            days = tonumber(result[5]),
+        }
+        Logger.error(bonues_info.uid, bonues_info.bonues)
+        if ret_handler then
+            ret_handler(nil, bonues_info)
+        end
+    end)
+end
+
+local function insert_bonues_info(uid, ret_handler)
+    if mysql_conn == nil then
+        if ret_handler then
+            ret_handler("mysql is not connected!", nil)
+        end
+        return
+    end
+
+    local sql = "insert into login_bonues(`uid`, `bonues_time`, `status`)values(%d, %d, 1)"
+    local sql_cmd = string.format(sql, uid, Utils.timestamp())
+    print(sql_cmd)
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if ret_handler then
+            ret_handler(err, nil)
+        end
+    end)
+end
+
+local function update_login_bonues(uid, bonues_info, ret_handler)
+    if mysql_conn == nil then
+        if ret_handler then
+            ret_handler("mysql is not connected!", nil)
+        end
+        return
+    end
+    
+    print(bonues_info.bonues, bonues_info.bonues_time, bonues_info.days, uid)
+    local sql = "update login_bonues set status = 0, bonues = %d, bonues_time = %d, days = %d where uid = %d"
+    local sql_cmd = string.format(sql, bonues_info.bonues, bonues_info.bonues_time, bonues_info.days, uid)
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if ret_handler then
+            ret_handler(err, ret)
+        end
+    end)
+end
+
 local mysql_auth_center = {
     get_ugame_info = get_ugame_info,
     insert_ugame_info = insert_ugame_info,
+    get_bonues_info = get_bonues_info,
+    insert_bonues_info = insert_bonues_info,
+    update_login_bonues = update_login_bonues,
 }
 
 return mysql_auth_center
