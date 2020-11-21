@@ -1,0 +1,148 @@
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server TCP Start At 6080
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/main.lua:31  
+Server WS Start At 6081
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [nil] 127.0.0.1 : 8001
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service success!
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [2] service success!
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:31  
+connect success to server [Auth server] 127.0.0.1 : 8000
+20201117 23:47:26 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201117 23:47:28 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:31  
+connect success to server [nil] 127.0.0.1 : 8001
+20201117 23:47:51 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:55236
+
+20201117 23:48:00 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	1	9	0	127.0.0.1	55236
+20201117 23:48:00 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:141  
+================utag	0
+20201117 23:48:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:48:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:48:00 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	2	13	0	127.0.0.1	55236
+20201117 23:48:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:48:00 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:106  
+41
+20201117 23:48:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:48:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201117 23:48:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:48:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:55276
+
+20201117 23:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	1	9	0	127.0.0.1	55276
+20201117 23:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:141  
+================utag	0
+20201117 23:49:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	2	13	0	127.0.0.1	55276
+20201117 23:49:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:33 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:106  
+41
+20201117 23:49:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:48 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201117 23:49:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:49:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:04 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:55291
+
+20201117 23:50:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	1	9	0	127.0.0.1	55291
+20201117 23:50:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:141  
+================utag	0
+20201117 23:50:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	2	13	0	127.0.0.1	55291
+20201117 23:50:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:07 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:106  
+41
+20201117 23:50:07 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:09 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201117 23:50:09 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:09 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:40 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:55299
+
+20201117 23:50:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	1	9	0	127.0.0.1	55299
+20201117 23:50:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:141  
+================utag	0
+20201117 23:50:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:129  
+send_to_server	2	13	0	127.0.0.1	55299
+20201117 23:50:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:51 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:106  
+41
+20201117 23:50:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201117 23:50:55 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:50:55 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201117 23:52:13 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:179  
+gateway disconnect: [nil]
+20201117 23:52:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201117 23:52:14 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [nil] 127.0.0.1 : 8001

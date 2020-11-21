@@ -13,7 +13,6 @@ local redis_center = require("database/redis_center")
 local function do_login(s, req)
     local uid = req[3]
     local uname_login_req = req[4]
-    Logger.error("do_login", uid)
     if string.len(uname_login_req.upwd_md5) ~= 32 or string.len(uname_login_req.uname) <= 0 then
         local msg = { Stype.Auth, Cmd.eUnameLoginReq, uid, {
             status = Respones.UnameOrPasswordErr,

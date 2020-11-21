@@ -1,0 +1,54 @@
+20201116 23:37:29 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201116 23:37:30 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201116 23:37:30 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51341
+
+20201116 23:37:30 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:21  
+connect to moba game db success!!!!
+20201116 23:37:45 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	13	41
+20201116 23:37:45 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:71  
+table
+20201116 23:38:45 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201116 23:38:45 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201116 23:38:46 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51352
+
+20201116 23:38:46 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:21  
+connect to moba game db success!!!!
+20201116 23:38:50 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	13	41
+20201116 23:38:50 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:71  
+table
+20201116 23:38:50 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201116 23:38:57 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	13	41
+20201116 23:38:57 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:71  
+table
+20201116 23:38:57 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201116 23:39:10 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	4	41
+20201116 23:39:17 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	13	41
+20201116 23:39:17 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:71  
+table
+20201116 23:39:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201116 23:40:32 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	4	41
+20201116 23:41:40 ERROR ../../../apps/lua/scripts/system_server/system_service.lua:16  
+2	13	41
+20201116 23:41:40 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:71  
+table
+20201116 23:41:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+

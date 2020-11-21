@@ -1,0 +1,6 @@
+20201118 23:40:00 DEBUG ../../../apps/lua/scripts/system_server/main.lua:27  
+Auth Server Start at 8001
+20201118 23:40:00 DEBUG ../../../apps/lua/scripts/system_server/main.lua:34  
+register System service:[2] success!!!
+20201118 23:40:01 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:21  
+connect to moba game db success!!!!

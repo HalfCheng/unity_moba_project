@@ -9,6 +9,7 @@ local Cmd = require("Cmd")
 local mysql_game = require("database/mysql_game")
 local Respones = require("Respones")
 local moba_game_config = require("moba_game_config")
+local redis_game = require("database/redis_game")
 
 --发放奖励
 local function _send_bonues_to_user(uid, bonues_info, ret_handler)
@@ -32,12 +33,12 @@ local function _send_bonues_to_user(uid, bonues_info, ret_handler)
                 ret_handler(err, nil)
                 return
             end
-            
+
             ret_handler(nil, bonues_info)
         end)
         return
     end
-    
+
     ret_handler(nil, bonues_info)
 end
 
@@ -67,8 +68,47 @@ local function check_login_bonues(uid, ret_handler)
     end)
 end
 
+local function recv_login_bonues(s, req)
+    local uid = req[3]
+    mysql_game.get_bonues_info(uid, function(err, bonues_info)
+        if err then
+            Logger.error(err)
+            local msg = {
+                Stype.System, Cmd.eRecvLoginBonuesRes, uid, {
+                    status = Respones.SystemErr
+                }
+            }
+            Session.send_msg(s, msg)
+            return
+        end
+
+        if bonues_info == nil or bonues_info.status ~= 0 then
+            local msg = {
+                Stype.System, Cmd.eRecvLoginBonuesRes, uid, {
+                    status = Respones.InvalidOpt
+                }
+            }
+            Session.send_msg(s, msg)
+            return
+        end
+        
+        mysql_game.add_chip(uid, bonues_info.bonues, nil)
+        redis_game.add_chip_inredis(uid, bonues_info.bonues)
+
+        mysql_game.update_login_bonues_status(uid, bonues_info, function()
+            local msg = {
+                Stype.System, Cmd.eRecvLoginBonuesRes, uid, {
+                    status = Respones.OK
+                }
+            }
+            Session.send_msg(s, msg)
+        end)
+    end)
+end
+
 local login_bonues = {
-    check_login_bonues = check_login_bonues
+    check_login_bonues = check_login_bonues,
+    recv_login_bonues = recv_login_bonues
 }
 
 return login_bonues

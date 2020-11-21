@@ -1,0 +1,69 @@
+20201120 00:16:39 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201120 00:16:39 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201120 00:16:39 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:25  
+connect to redis center db success!!!!
+20201120 00:16:39 ERROR ../../../apps/lua/scripts/database/redis_center.lua:27  
+select db_idx
+20201120 00:16:39 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:51144
+
+20201120 00:16:39 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:19  
+connect to auth center db success!!!!
+20201120 00:16:49 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	1
+20201120 00:16:49 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:16:49 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:16:49 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:18:26 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	2
+20201120 00:18:26 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:18:26 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:18:26 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:19:14 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	3
+20201120 00:19:14 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:19:14 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:19:14 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:20:44 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	4
+20201120 00:20:44 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:20:44 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:20:44 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:41:41 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	5
+20201120 00:41:41 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:41:41 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:41:41 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:43:44 ERROR ../../../apps/lua/scripts/auth_server/uname_login.lua:16  
+do_login	6
+20201120 00:43:44 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:153  
+0	0
+20201120 00:43:44 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:47  
+hmset moba_auth_center_user_uid_41 unick gst827844 usex 0 uface 6 uvip 0 is_guest 0
+20201120 00:43:44 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201120 00:44:33 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!

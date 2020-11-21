@@ -9,10 +9,11 @@ local Cmd = require("Cmd")
 local mysql_game = require("database/mysql_game")
 local Respones = require("Respones")
 local login_bonues = require("system_server/login_bonues")
+local redis_game = require("database/redis_game")
 
 local function get_ugameinfo(s, req)
     local uid = req[3]
-    mysql_game.get_ugame_info(uid, function(err, uinfo)
+    mysql_game.get_ugame_info(uid, function(err, ugame_info)
         if err then
             Logger.error(err)
             local msg = {
@@ -24,7 +25,7 @@ local function get_ugameinfo(s, req)
             return
         end
 
-        if uinfo == nil then
+        if ugame_info == nil then
             mysql_game.insert_ugame_info(uid, function(err, ret)
                 if err then
                     Logger.error(err)
@@ -41,7 +42,7 @@ local function get_ugameinfo(s, req)
             return
         end
 
-        if uinfo.ustatus ~= 0 then
+        if ugame_info.ustatus ~= 0 then
             --账号被查封
             local msg = {
                 Stype.System, Cmd.eGetUgameInfoRes, uid, {
@@ -52,7 +53,7 @@ local function get_ugameinfo(s, req)
             return
         end
 
-        --redis_center.set_uinfo_inredis(uinfo.uid, uinfo)
+        --redis_center.set_ugame_info_inredis(ugame_info.uid, ugame_info)
         login_bonues.check_login_bonues(uid, function(err, bonues_info)
             if err then
                 Logger.error(err)
@@ -64,21 +65,27 @@ local function get_ugameinfo(s, req)
                 Session.send_msg(s, msg)
                 return
             end
-
+            
+            redis_game.set_ugame_info_inredis(uid, ugame_info)
+            
             local msg = {
                 Stype.System, Cmd.eGetUgameInfoRes, uid, {
                     status = Respones.OK,
                     uinfo = {
-                        uchip = uinfo.uchip,
-                        uchip2 = uinfo.uchip2,
-                        uchip3 = uinfo.uchip3,
-                        uvip = uinfo.uvip,
-                        uvip_endtime = uinfo.uvip_endtime,
-                        udata1 = uinfo.udata1,
-                        udata2 = uinfo.udata2,
-                        udata3 = uinfo.udata3,
-                        uexp = uinfo.uexp,
-                        ustatus = uinfo.ustatus,
+                        uchip = ugame_info.uchip,
+                        uchip2 = ugame_info.uchip2,
+                        uchip3 = ugame_info.uchip3,
+                        uvip = ugame_info.uvip,
+                        uvip_endtime = ugame_info.uvip_endtime,
+                        udata1 = ugame_info.udata1,
+                        udata2 = ugame_info.udata2,
+                        udata3 = ugame_info.udata3,
+                        uexp = ugame_info.uexp,
+                        ustatus = ugame_info.ustatus,
+                        
+                        bonues_status = bonues_info.status,
+                        bonues = bonues_info.bonues,
+                        days = bonues_info.days
                     }
                 }
             }

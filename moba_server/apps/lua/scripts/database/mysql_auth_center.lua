@@ -150,7 +150,6 @@ local function get_uinfo_by_uname_upwd(uname, upwd_md5, ret_handler)
             status = tonumber(result[6]),
             is_guest = tonumber(result[7]),
         }
-        print(uinfo.is_guest, uinfo.status)
         if ret_handler then
             ret_handler(nil, uinfo)
         end

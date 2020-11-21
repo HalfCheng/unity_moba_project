@@ -32,6 +32,7 @@ public class login_scene : MonoBehaviour
         this.guest_btn.onClick.AddListener(this.on_guest_login_click);
         this.log_btn.onClick.AddListener(this.on_uname_login_click);
         this.uname_Field.text = PlayerPrefs.GetString("moba_name_key");
+        this.upwd_Field.text = PlayerPrefs.GetString("moba_pwd_key");
 
         event_manager.Instance.add_event_listener("login_success", this.on_login_success);
         event_manager.Instance.add_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
@@ -48,6 +49,7 @@ public class login_scene : MonoBehaviour
         }
 
         PlayerPrefs.SetString("moba_name_key", name);
+        PlayerPrefs.SetString("moba_pwd_key", upwd);
         auth_service_proxy.Instance.uname_login(name, upwd);
     }
 

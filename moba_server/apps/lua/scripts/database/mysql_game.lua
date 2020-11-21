@@ -158,10 +158,32 @@ local function update_login_bonues(uid, bonues_info, ret_handler)
         end
         return
     end
-    
+
     print(bonues_info.bonues, bonues_info.bonues_time, bonues_info.days, uid)
     local sql = "update login_bonues set status = 0, bonues = %d, bonues_time = %d, days = %d where uid = %d"
     local sql_cmd = string.format(sql, bonues_info.bonues, bonues_info.bonues_time, bonues_info.days, uid)
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if ret_handler then
+            ret_handler(err, ret)
+        end
+    end)
+end
+
+local function update_login_bonues_status(uid, bonues_info, ret_handler)
+    local sql = "update login_bonues set status = 1, bonues_time = %d, days = days + 1 where uid = %d"
+    local sql_cmd = string.format(sql, Utils.timestamp(), uid)
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if ret_handler then
+            ret_handler(err, ret)
+        end
+    end)
+end
+
+local function add_chip(uid, chip, ret_handler)
+    local sql = "update ugame set uchip = uchip + %d where uid = %d"
+    local sql_cmd = string.format(sql, chip, uid)
 
     MySql.query(mysql_conn, sql_cmd, function(err, ret)
         if ret_handler then
@@ -176,6 +198,8 @@ local mysql_auth_center = {
     get_bonues_info = get_bonues_info,
     insert_bonues_info = insert_bonues_info,
     update_login_bonues = update_login_bonues,
+    update_login_bonues_status = update_login_bonues_status,
+    add_chip = add_chip,
 }
 
 return mysql_auth_center

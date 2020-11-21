@@ -44,7 +44,6 @@ local function set_uinfo_inredis(uid, uinfo)
             " uvip " .. uinfo.uvip ..
             " is_guest " .. uinfo.is_guest
 
-    print(redis_cmd)
     Redis.query(redis_conn, redis_cmd, function(err, ret)
 
     end)

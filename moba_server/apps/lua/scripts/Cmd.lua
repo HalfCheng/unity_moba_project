@@ -19,6 +19,8 @@ local Cmd = {
     eLoginOutRes = 12,
     eGetUgameInfoReq = 13,
     eGetUgameInfoRes = 14,
+    eRecvLoginBonuesReq = 15,
+    eRecvLoginBonuesRes = 16,
 }
 
 return Cmd
