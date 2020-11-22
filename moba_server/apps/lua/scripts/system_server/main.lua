@@ -5,6 +5,8 @@
 ---
 Logger.init("logger/system_server/", "system_server", true)
 
+require("database/mysql_game")
+
 -- 初始化协议模块
 local proto_type = {
     PROTO_JSON = 0,

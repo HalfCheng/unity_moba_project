@@ -192,6 +192,44 @@ local function add_chip(uid, chip, ret_handler)
     end)
 end
 
+local function get_sys_msg(ret_handler)
+    if mysql_conn == nil then
+        if ret_handler then
+            ret_handler()
+        end
+        return
+    end
+    local sql = "select msg from sys_msg"
+    local sql_cmd = sql
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if err then
+            if ret_handler then
+                ret_handler(err, nil)
+            end
+            return
+        end
+
+        --没有这条记录
+        if ret == nil or #ret <= 0 then
+            if ret_handler then
+                ret_handler(nil, nil)
+            end
+            return
+        end
+        
+        local result = {}
+
+        for i, v in pairs(ret) do
+            result[i] = v[1]
+        end
+        
+        if ret_handler then
+            ret_handler(nil, result)
+        end
+    end)
+end
+
 local mysql_auth_center = {
     get_ugame_info = get_ugame_info,
     insert_ugame_info = insert_ugame_info,
@@ -200,6 +238,7 @@ local mysql_auth_center = {
     update_login_bonues = update_login_bonues,
     update_login_bonues_status = update_login_bonues_status,
     add_chip = add_chip,
+    get_sys_msg = get_sys_msg,
 }
 
 return mysql_auth_center

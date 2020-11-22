@@ -1,8 +1,39 @@
-﻿using gprotocol;
+﻿using System.Collections.Generic;
+using gprotocol;
 using UnityEngine;
 
 public class system_server_proxy : Singleton<system_server_proxy>
 {
+    private int ver_num = 0;
+    private List<string> sys_msgs;
+
+    private void on_get_sys_msg_return(cmd_msg msg)
+    {
+        GetSysMsgRes res = proto_man.protobuf_deserialize<GetSysMsgRes>(msg.body);
+
+        if (res == null)
+        {
+            Debug.LogError("error !!!");
+            return;
+        }
+
+        if (res.status != Respones.OK)
+        {
+            Debug.LogError("error !!!  " + res.status);
+            return;
+        }
+
+        if (this.ver_num == res.ver_num)
+        {
+        }
+        else
+        {
+            this.ver_num = res.ver_num;
+            this.sys_msgs = res.sys_msgs;
+        }
+        event_manager.Instance.dispatch_event("get_sys_email", this.sys_msgs);
+    }
+
     private void on_recv_login_bonues_return(cmd_msg msg)
     {
         RecvLoginBonuesRes res = proto_man.protobuf_deserialize<RecvLoginBonuesRes>(msg.body);
@@ -54,7 +85,7 @@ public class system_server_proxy : Singleton<system_server_proxy>
             Debug.LogError("error to get world rank info " + res.status);
             return;
         }
-        
+
         event_manager.Instance.dispatch_event("get_rank_list", res.rank_info);
     }
 
@@ -72,6 +103,10 @@ public class system_server_proxy : Singleton<system_server_proxy>
 
             case Cmd.eGetWorldRankUchipRes:
                 this.on_recv_world_rank_uchip_return(msg);
+                break;
+
+            case Cmd.eGetSysMsgRes:
+                this.on_get_sys_msg_return(msg);
                 break;
         }
     }
@@ -94,5 +129,12 @@ public class system_server_proxy : Singleton<system_server_proxy>
     public void get_world_uchip_rank_info()
     {
         network.Instance.send_protobuf_cmd(Stype.System, Cmd.eGetWorldRankUchipReq, null);
+    }
+
+    public void get_sys_msg()
+    {
+        GetSysMsgReq req = new GetSysMsgReq();
+        req.ver_num = this.ver_num;
+        network.Instance.send_protobuf_cmd(Stype.System, Cmd.eGetSysMsgReq, req);
     }
 }

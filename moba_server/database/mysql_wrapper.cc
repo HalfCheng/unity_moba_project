@@ -65,6 +65,7 @@ static void connect_work(uv_work_t* req)
 		c->is_closed = 0;
 		r->context = c;
 		r->err = NULL;
+		mysql_set_character_set(pConn, "utf8");
 	}
 	else
 	{

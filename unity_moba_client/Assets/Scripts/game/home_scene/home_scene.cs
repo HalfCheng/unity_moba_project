@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.U2D.Sprites;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -19,6 +20,16 @@ public class home_scene : MonoBehaviour
     public GameObject login_bonues;
 
     public GameObject rank_list_prefab;
+    public GameObject email_list_prefab;
+
+    public GameObject home_page;
+    public GameObject war_page;
+
+    public Sprite[] tab_normal_img;
+    public Sprite[] tab_select_img;
+
+    public Image img_home_btn;
+    public Image img_war_btn;
 
     private void Start()
     {
@@ -29,6 +40,24 @@ public class home_scene : MonoBehaviour
 
         event_manager.Instance.add_event_listener("sync_ugame_info", this.sync_ugame_info);
         this.sync_ugame_info("sync_ugame_info", null);
+
+        this.on_home_page_click();
+    }
+
+    public void on_home_page_click()
+    {
+        this.home_page.SetActive(true);
+        this.war_page.SetActive(false);
+        this.img_home_btn.sprite = this.tab_select_img[0];
+        this.img_war_btn.sprite = this.tab_normal_img[1];
+    }
+
+    public void on_war_page_click()
+    {
+        this.home_page.SetActive(false);
+        this.war_page.SetActive(true);
+        this.img_home_btn.sprite = this.tab_normal_img[0];
+        this.img_war_btn.sprite = this.tab_select_img[1];
     }
 
     private void on_user_login_out(string name, object udata)
@@ -82,13 +111,13 @@ public class home_scene : MonoBehaviour
 
         if (ugame.Instance.ugame_info.bonues_status == 0)
         {
-            this.login_bonues.SetActive(true);
-            this.login_bonues.GetComponent<login_bonues>().show_login_bonues(ugame.Instance.ugame_info.days);
+            this.on_login_bonues_click();
         }
-        else
-        {
-            this.login_bonues.SetActive(false);
-        }
+    }
+
+    public void on_login_bonues_click()
+    {
+        GameObject.Instantiate(this.login_bonues, this.transform);
     }
 
     public void on_uinfo_click()
@@ -100,9 +129,15 @@ public class home_scene : MonoBehaviour
     public void on_get_rank_click()
     {
         //system_server_proxy.Instance.get_world_uchip_rank_info();
-        var rank_list = GameObject.Instantiate(this.rank_list_prefab, this.transform);
+        GameObject.Instantiate(this.rank_list_prefab, this.transform);
     }
-    
+
+    public void on_get_sys_msg_click()
+    {
+        // system_server_proxy.Instance.get_sys_msg();
+        GameObject.Instantiate(this.email_list_prefab, this.transform);
+    }
+
     private void OnDestroy()
     {
         event_manager.Instance.remove_event_listener("sync_uinfo", this.sync_uinfo);

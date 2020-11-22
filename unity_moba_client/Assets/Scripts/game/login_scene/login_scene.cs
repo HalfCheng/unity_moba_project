@@ -13,6 +13,7 @@ public class login_scene : MonoBehaviour
     public InputField upwd_Field;
 
     public Button log_btn;
+
     // Start is called before the first frame update
 
     private void on_login_success(string name, object udata)
@@ -38,7 +39,6 @@ public class login_scene : MonoBehaviour
         event_manager.Instance.add_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
     }
 
-    // Update is called once per frame
     public void on_uname_login_click()
     {
         string name = this.uname_Field.text;
