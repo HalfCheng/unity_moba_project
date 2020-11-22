@@ -54,11 +54,18 @@ local game_config = {
         port = 6379, --redis 端口
         db_index = 1, --数据1
     },
-    
+
     redis_game = {
         host = "127.0.0.1",
         port = 6379,
         db_index = 2,
+    },
+
+    --排行榜redis服务器
+    redis_rank = {
+        host = "127.0.0.1",
+        port = 6379,
+        db_index = 3,
     }
 }
 

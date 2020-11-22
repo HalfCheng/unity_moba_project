@@ -63,7 +63,7 @@ local function get_ugame_info_inredis(uid, ret_handler)
 
         local ugame_info = {}
         ugame_info.uid = uid
-        ugame_info.uchp = tonumber(ret[2])
+        ugame_info.uchip = tonumber(ret[2])
         ugame_info.uexp = tonumber(ret[4])
         ugame_info.uvip = tonumber(ret[6])
 

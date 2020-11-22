@@ -18,6 +18,8 @@ public class home_scene : MonoBehaviour
 
     public GameObject login_bonues;
 
+    public GameObject rank_list_prefab;
+
     private void Start()
     {
         event_manager.Instance.add_event_listener("sync_uinfo", this.sync_uinfo);
@@ -95,6 +97,12 @@ public class home_scene : MonoBehaviour
         uinfo_dlg.transform.SetParent(this.transform, false);
     }
 
+    public void on_get_rank_click()
+    {
+        //system_server_proxy.Instance.get_world_uchip_rank_info();
+        var rank_list = GameObject.Instantiate(this.rank_list_prefab, this.transform);
+    }
+    
     private void OnDestroy()
     {
         event_manager.Instance.remove_event_listener("sync_uinfo", this.sync_uinfo);

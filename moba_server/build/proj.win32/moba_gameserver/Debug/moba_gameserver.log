@@ -99,30 +99,35 @@ d:\c++\moba_game_server\moba_server\utils\timestamp.c(377): warning C4047: “re
   tolua_fix.cc
   main.cc
   game.pb.cc
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(861): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(869): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(877): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(885): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1220): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1487): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1495): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1762): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(2245): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(2752): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(2983): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3224): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3232): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3240): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3248): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3256): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3264): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3272): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3280): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3288): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3296): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3304): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3768): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3999): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(936): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(944): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(952): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(960): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1295): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1562): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1570): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(1837): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(2320): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(2827): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3058): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3299): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3307): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3315): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3323): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3331): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3339): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3347): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3355): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3363): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3371): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3379): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(3843): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4074): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4313): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4321): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4329): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4337): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+d:\c++\moba_game_server\moba_server\apps\lua\proto\game.pb.cc(4651): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
   mysql_wrapper.cc
   redis_wrapper.cc
   lua_wrapper.cc
