@@ -1,0 +1,21 @@
+20201124 00:06:41 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201124 00:06:41 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201124 00:06:41 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:21  
+connect to moba game db success!!!!
+20201124 00:06:43 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201124 00:06:43 ERROR ../../../apps/lua/scripts/database/redis_game.lua:16  
+由于目标计算机积极拒绝，无法连接。
+20201124 00:06:43 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201124 00:06:43 ERROR d:\c++\moba_game_server\moba_server\database\redis_wrapper.cc:57  
+connection error: 由于目标计算机积极拒绝，无法连接。
+
+20201124 00:06:43 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:17  
+由于目标计算机积极拒绝，无法连接。
+20201124 00:06:43 ERROR ../../../apps/lua/scripts/database/redis_center.lua:18  
+由于目标计算机积极拒绝，无法连接。

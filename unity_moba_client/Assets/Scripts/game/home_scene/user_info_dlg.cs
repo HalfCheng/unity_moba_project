@@ -21,7 +21,7 @@ public class user_info_dlg : MonoBehaviour
     public InputField upwd_edit;
     public InputField upwd_again;
 
-    private string now_unick = "";
+    //private string now_unick = "";
 
     private int usex = 0;
 

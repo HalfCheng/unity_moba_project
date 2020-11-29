@@ -31,6 +31,8 @@ public class home_scene : MonoBehaviour
     public Image img_home_btn;
     public Image img_war_btn;
 
+    public GameObject tream_match_prefab;
+
     private void Start()
     {
         event_manager.Instance.add_event_listener("sync_uinfo", this.sync_uinfo);

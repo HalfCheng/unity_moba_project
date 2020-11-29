@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Object = System.Object;
 
 public class login_scene : MonoBehaviour
 {
@@ -25,9 +26,14 @@ public class login_scene : MonoBehaviour
 
     private void on_get_ugame_info_success(string name, object udata)
     {
+        logic_service_proxy.Instance.login_logic_server();
+    }
+
+    private void on_login_logic_server_success(string naem, object udata)
+    {
         SceneManager.LoadScene("home_scene");
     }
-    
+
     void Start()
     {
         this.guest_btn.onClick.AddListener(this.on_guest_login_click);
@@ -37,6 +43,7 @@ public class login_scene : MonoBehaviour
 
         event_manager.Instance.add_event_listener("login_success", this.on_login_success);
         event_manager.Instance.add_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
+        event_manager.Instance.add_event_listener("login_logic_server", this.on_login_logic_server_success);
     }
 
     public void on_uname_login_click()
@@ -57,6 +64,7 @@ public class login_scene : MonoBehaviour
     {
         event_manager.Instance.remove_event_listener("get_ugame_info_success", this.on_get_ugame_info_success);
         event_manager.Instance.remove_event_listener("login_success", this.on_login_success);
+        event_manager.Instance.remove_event_listener("login_logic_server", this.on_login_logic_server_success);
     }
 
     public void on_guest_login_click()

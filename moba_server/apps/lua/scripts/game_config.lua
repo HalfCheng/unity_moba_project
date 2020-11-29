@@ -19,9 +19,15 @@ remove_servers[Stype.System] = {
     stype = Stype.System,
     ip = "127.0.0.1",
     port = 8001,
-    desci = "System server",
+    desic = "System server",
 }
 
+remove_servers[Stype.Logic] = {
+    stype = Stype.Logic,
+    ip = "127.0.0.1",
+    port = 8002,
+    desic = "Logic server",
+}
 
 --配置
 local game_config = {

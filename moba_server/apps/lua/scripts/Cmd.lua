@@ -25,6 +25,8 @@ local Cmd = {
     eGetWorldRankUchipRes = 18,
     eGetSysMsgReq = 19,
     eGetSysMsgRes = 20,
+    eLoginLogicReq = 21,
+    eLoginLogicRes = 22,
 }
 
 return Cmd
