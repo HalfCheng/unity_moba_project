@@ -9,6 +9,7 @@ local game_mgr = require("logic_server/game_mgr")
 
 local logic_service_handlers = {}
 logic_service_handlers[Cmd.eLoginLogicReq] = game_mgr.login_logic
+logic_service_handlers[Cmd.eUserLostConn] = game_mgr.on_player_disconnect
 
 --{stype, ctype, utag, body}
 local function on_logic_recv_cmd(s, msg)
@@ -18,13 +19,19 @@ local function on_logic_recv_cmd(s, msg)
     end
 end
 
-local function on_logic_session_disconnect(s, stype)
+local function on_gateway_disconnect(s, stype)
+    game_mgr.on_gateway_disconnect(s)
+end
 
+local function on_getway_connect(s, stype)
+    print("gateway connect to Logic!!!")
+    game_mgr.on_gateway_connect(s)
 end
 
 local logic_service = {
     on_session_recv_cmd = on_logic_recv_cmd,
-    on_session_disconnect = on_logic_session_disconnect,
+    on_session_disconnect = on_gateway_disconnect,
+    on_session_connect = on_getway_connect,
 }
 
 return logic_service

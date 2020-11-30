@@ -20,9 +20,9 @@ int main(int argc, char** argv)
 	if(argc != 3)
 	{
 		std::string search_path = "../../../apps/lua/scripts/";
-		//std::string path = search_path + "gateway/main.lua";
+		std::string path = search_path + "gateway/main.lua";
 		//std::string path = search_path + "auth_server/main.lua";
-		std::string path = search_path + "system_server/main.lua";
+		//std::string path = search_path + "system_server/main.lua";
 		lua_wrapper::add_search_path(search_path);
 		bool ret = lua_wrapper::do_file(path);
 		if (!ret)

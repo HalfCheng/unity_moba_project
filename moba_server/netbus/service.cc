@@ -19,3 +19,7 @@ bool service::on_session_recv_cmd(session * s, cmd_msg* msg)
 void service::on_session_disconnect(session * s, int stype)
 {
 }
+
+void service::on_session_connect(session * s, int stype)
+{
+}

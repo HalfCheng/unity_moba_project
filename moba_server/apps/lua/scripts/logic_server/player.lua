@@ -20,7 +20,7 @@ function player:new(instant)
 end
 
 function player:init(uid, s, ret_handler)
-    self.v_session = s
+    self:set_session(s)
     self.v_uid = uid
 
     --数据库里面读取玩家的基本信息
@@ -40,6 +40,11 @@ end
 
 function player:set_session(session)
     self.v_session = session
+    local uid = Session.get_uid(session)
+    local utag = Session.get_utag(session)
+    local addr = Session.get_address(session)
+    local is_client = Session.asclient(session)
+    print(uid, utag, addr, is_client)
 end
 
 return player

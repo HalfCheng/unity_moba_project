@@ -44,8 +44,42 @@ local function login_logic(s, req)
     end)
 end
 
+--玩家离开了
+local function on_player_disconnect(s, req)
+    local uid = req[3]
+    
+    --游戏中的玩家我们后续考虑
+    --end
+
+    --玩家断线离开中
+    if logic_server_players[uid] then
+        logic_server_players[uid] = nil
+        online_player_num = online_player_num - 1
+    end
+    --end
+    Logger.error("on_player_disconnect", online_player_num)
+end
+
+--网关断线
+local function on_gateway_disconnect(s)
+    for i, v in pairs(logic_server_players) do
+        v:set_session(nil)
+    end
+end
+
+--网关连接
+local function on_gateway_connect(s)
+    print("on_gateway_connect")
+    for i, v in pairs(logic_server_players) do
+        v:set_session(s)
+    end
+end
+
 local game_mgr = {
-    login_logic = login_logic
+    login_logic = login_logic,
+    on_player_disconnect = on_player_disconnect,
+    on_gateway_disconnect = on_gateway_disconnect,
+    on_gateway_connect = on_gateway_connect,
 }
 
 return game_mgr
