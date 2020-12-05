@@ -7,6 +7,13 @@
 local game_config = require("game_config")
 local redis_conn = nil
 
+local function is_connected()
+    if not redis_conn then
+        return false
+    end
+    return true
+end
+
 local function redis_connect_to_rank()
     local host = game_config.redis_rank.host
     local port = game_config.redis_rank.port

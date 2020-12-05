@@ -31,7 +31,7 @@ public class home_scene : MonoBehaviour
     public Image img_home_btn;
     public Image img_war_btn;
 
-    public GameObject tream_match_prefab;
+    public GameObject team_match_prefab;
 
     private void Start()
     {
@@ -138,6 +138,13 @@ public class home_scene : MonoBehaviour
     {
         // system_server_proxy.Instance.get_sys_msg();
         GameObject.Instantiate(this.email_list_prefab, this.transform);
+    }
+
+    public void on_zone_sgyd_click()
+    {
+        GameObject math_dlg = GameObject.Instantiate(this.team_match_prefab);
+        math_dlg.transform.SetParent(this.transform, false);
+        ugame.Instance.zid = Zone.SGYD;
     }
 
     private void OnDestroy()

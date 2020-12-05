@@ -10,6 +10,7 @@ local game_mgr = require("logic_server/game_mgr")
 local logic_service_handlers = {}
 logic_service_handlers[Cmd.eLoginLogicReq] = game_mgr.login_logic
 logic_service_handlers[Cmd.eUserLostConn] = game_mgr.on_player_disconnect
+logic_service_handlers[Cmd.eEnterZoneReq] = game_mgr.enter_zone
 
 --{stype, ctype, utag, body}
 local function on_logic_recv_cmd(s, msg)

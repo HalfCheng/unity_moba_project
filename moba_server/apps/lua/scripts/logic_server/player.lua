@@ -8,6 +8,9 @@ local Cmd = require("Cmd")
 local Respones = require("Respones")
 local mysql_game = require("database/mysql_game")
 local redis_game = require("database/redis_game")
+local redis_center = require("database/redis_center")
+local State = require("logic_server/State")
+local Zone = require("logic_server/Zone")
 
 local player = {}
 function player:new(instant)
@@ -22,6 +25,11 @@ end
 function player:init(uid, s, ret_handler)
     self:set_session(s)
     self.v_uid = uid
+    self.v_zid = -1 --玩家所在的战场空间（圣光营地/奥斯深渊）
+    self.v_matchid = -1 --玩家所在的比赛房间的id
+    self.v_state = State.InView --玩家当前处于观战状态
+    self.v_ugame_info = nil
+    self.v_uinfo = nil
 
     --数据库里面读取玩家的基本信息
     mysql_game.get_ugame_info(uid, function(err, ugame_info)
@@ -29,7 +37,14 @@ function player:init(uid, s, ret_handler)
             ret_handler(Respones.SystemErr)
         else
             self.v_ugame_info = ugame_info
-            ret_handler(Respones.OK)
+            redis_center.get_uinfo_inredis(uid, function(err, uinfo)
+                if err then
+                    ret_handler(Respones.SystemErr)
+                    return
+                end
+                self.v_uinfo = uinfo
+                ret_handler(Respones.OK)
+            end)
         end
     end)
     --end
@@ -38,13 +53,33 @@ function player:init(uid, s, ret_handler)
     --end
 end
 
+function player:setmatchid(matchid)
+    self.v_matchid = matchid
+end
+
+function player:send_cmd(stype, ctype, body)
+    if not self.v_session then
+        return
+    end
+    Session.send_msg(self.v_session, { stype, ctype, self.v_uid, body })
+end
+
+function player:get_user_arrived()
+    local body = { unick = "", uface = 0, usex = 0 }
+
+    if self.v_uinfo then
+        body.unick = self.v_uinfo.unick
+        body.uface = self.v_uinfo.uface
+        body.usex = self.v_uinfo.usex
+    else
+        Logger.error("can not get the user info: ", self.v_uid)
+    end
+    return body
+end
+
 function player:set_session(session)
     self.v_session = session
-    local uid = Session.get_uid(session)
-    local utag = Session.get_utag(session)
-    local addr = Session.get_address(session)
-    local is_client = Session.asclient(session)
-    print(uid, utag, addr, is_client)
+    print(Session.get_uid(session), Session.get_utag(session), Session.get_address(session), Session.asclient(session))
 end
 
 return player

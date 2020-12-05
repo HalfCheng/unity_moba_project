@@ -41,6 +41,11 @@ public class team_match : MonoBehaviour
     {
     }
 
+    public void on_begin_match_click()
+    {
+        logic_service_proxy.Instance.enter_zone(ugame.Instance.zid);
+    }
+
     private void OnDestroy()
     {
         var instance = event_manager.Instance;
