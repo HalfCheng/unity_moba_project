@@ -87,7 +87,8 @@ end
 
 local redis_rank = {
     flush_world_rank_with_uchip_inredis = flush_world_rank_with_uchip_inredis,
-    get_world_rank_with_uchip_inredis = get_world_rank_with_uchip_inredis
+    get_world_rank_with_uchip_inredis = get_world_rank_with_uchip_inredis,
+    is_connected = is_connected,
 }
 
 return redis_rank

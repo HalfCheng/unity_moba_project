@@ -31,6 +31,9 @@ local Cmd = {
     eEnterZoneRes = 24,
     eEnterMatch = 25,
     eUserArrived = 26,
+    eExitMatchReq = 27,
+    eExitMatchRes = 28,
+    eUserExitMatch = 29,
 }
 
 return Cmd

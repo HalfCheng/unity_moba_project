@@ -605,6 +605,23 @@ namespace gprotocol
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"UserExitMatch")]
+  public partial class UserExitMatch : global::ProtoBuf.IExtensible
+  {
+    public UserExitMatch() {}
+    
+    private int _status;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"status", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int status
+    {
+      get { return _status; }
+      set { _status = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
     [global::ProtoBuf.ProtoContract(Name=@"Stype")]
     public enum Stype
     {
@@ -705,7 +722,16 @@ namespace gprotocol
       eEnterMatch = 25,
             
       [global::ProtoBuf.ProtoEnum(Name=@"eUserArrived", Value=26)]
-      eUserArrived = 26
+      eUserArrived = 26,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"eExitMatchReq", Value=27)]
+      eExitMatchReq = 27,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"eExitMatchRes", Value=28)]
+      eExitMatchRes = 28,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"eUserExitMatch", Value=29)]
+      eUserExitMatch = 29
     }
   
 }

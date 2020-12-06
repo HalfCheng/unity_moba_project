@@ -18,7 +18,7 @@ system_service_handlers[Cmd.eGetSysMsgReq] = sys_msg.get_sys_msg
 
 --{stype, ctype, utag, body}
 local function on_system_recv_cmd(s, msg)
-    Logger.error(msg[1], msg[2], msg[3])
+    --Logger.error(msg[1], msg[2], msg[3])
     if system_service_handlers[msg[2]] then
         system_service_handlers[msg[2]](s, msg)
     end

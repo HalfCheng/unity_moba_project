@@ -78,6 +78,7 @@ CREATE TABLE IF NOT EXISTS `ugame` (
   `udata3` int(11) NOT NULL DEFAULT '0' COMMENT '用户在游戏中的道具3',
   `uexp` int(11) NOT NULL DEFAULT '0' COMMENT '用户的经验值',
   `ustatus` int(11) NOT NULL DEFAULT '0' COMMENT '0正常，其他为不正常',
+  `is_robot` int(11) NOT NULL DEFAULT '0' COMMENT '0为普通用户，1为机器人',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='存放我们玩家在moba这个游戏中的玩家的游戏数据，主要的游戏数据有：\r\n金币，其他货币，道具，游戏中的vip等级，账号状态，玩家的经验\r\nuid来标识玩家的，id最为自增长的唯一id号';
 

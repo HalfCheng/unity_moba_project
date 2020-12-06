@@ -1,0 +1,149 @@
+20201205 13:52:28 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201205 13:52:28 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201205 13:52:28 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201205 13:52:28 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201205 13:52:28 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:27  
+connect to auth center db success!!!!
+20201205 13:52:28 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:64311
+
+20201205 13:52:35 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+OszybzjUw1tedy52W5d7bW3CcM70NDfJ
+20201205 13:52:35 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+OszybzjUw1tedy52W5d7bW3CcM70NDfJ
+20201205 13:52:35 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:204  
+1	0
+20201205 13:52:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 13:52:52 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+WQJykwl780AJEQJ6QTFiEjGAaJubPDBj
+20201205 13:52:52 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+WQJykwl780AJEQJ6QTFiEjGAaJubPDBj
+20201205 13:52:52 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:204  
+1	0
+20201205 13:52:52 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 13:53:40 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+8pjLhSwdEYB4CQ5x7GEHohmC0NU3lg5W
+20201205 13:53:40 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+8pjLhSwdEYB4CQ5x7GEHohmC0NU3lg5W
+20201205 13:53:40 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:204  
+1	0
+20201205 13:53:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 13:53:47 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+An8soRDM6SD9g1fz0oxY1KknSzKvlmni
+20201205 13:53:47 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+An8soRDM6SD9g1fz0oxY1KknSzKvlmni
+20201205 13:53:47 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:204  
+1	0
+20201205 13:53:47 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 13:54:21 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+CsXdd5HI5fEudxnAkspQeeHy7YYyLMYM
+20201205 13:54:21 DEBUG ../../../apps/lua/scripts/auth_server/guest.lua:14  
+CsXdd5HI5fEudxnAkspQeeHy7YYyLMYM
+20201205 13:54:21 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:204  
+1	0
+20201205 13:54:21 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 14:12:20 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201205 14:12:20 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201205 14:12:20 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201205 14:12:20 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201205 14:12:20 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:27  
+connect to auth center db success!!!!
+20201205 14:12:22 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:49388
+
+20201205 14:12:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:37:10 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201205 17:37:10 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201205 17:37:10 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201205 17:37:10 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201205 17:37:10 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:27  
+connect to auth center db success!!!!
+20201205 17:37:13 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:50850
+
+20201205 17:37:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:40:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:44:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:45:02 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:45:53 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:46:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:47:41 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:48:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:49:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:50:16 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:51:20 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:51:42 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:52:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 17:54:14 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!
+20201205 22:48:29 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:27  
+Auth Server Start at 8000
+20201205 22:48:29 DEBUG ../../../apps/lua/scripts/auth_server/main.lua:34  
+register Auth service:[1] success!!!
+20201205 22:48:29 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201205 22:48:29 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:255  
+new client comming 127.0.0.1:53704
+
+20201205 22:48:29 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201205 22:48:30 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:27  
+connect to auth center db success!!!!
+20201205 22:48:38 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 22:53:43 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201205 23:14:45 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:199  
+client close!!

@@ -58,7 +58,7 @@ function match_mgr:enter_player(p)
 
     table.insert(self.v_inview_players, p) --将玩家放入集结列表中
     p:setmatchid(self.v_mathcid)
-    --发送命令，告诉客户端，你进入一个比赛，，zid，，matchid
+--发送命令，告诉客户端，你进入一个比赛，，zid，，matchid
     --end
 
     --通知玩家已经进入房间
@@ -69,7 +69,8 @@ function match_mgr:enter_player(p)
     --广播消息
     self:broadcast_cmd_inview_players(Stype.Logic, Cmd.eUserArrived, p:get_user_arrived(), p)
     --end
-
+    
+    Logger.error("cur match_room id, member ", self.v_mathcid, #self.v_inview_players)
     --玩家还要知道当前房间里面所有玩家的列表
     for i = 1, #self.v_inview_players do
         if self.v_inview_players[i] ~= p then
@@ -87,6 +88,16 @@ function match_mgr:enter_player(p)
     --end
 
     return true
+end
+
+local function exit_player(p)
+    for index = 1, #self.v_inview_players do
+        if(self.v_inview_players[index] == p) then
+            table.remove(self.v_inview_players, index)
+        end
+    end
+    
+    p:send_cmd(Stype.Logic, Cmd.eExitMatchRes, {status = Respones.OK})
 end
 
 return match_mgr

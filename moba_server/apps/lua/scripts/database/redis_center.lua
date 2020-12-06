@@ -8,6 +8,13 @@ local game_config = require("game_config")
 local redis_conn = nil
 redis_key = "moba_auth_center_user_uid_"
 
+local function is_connected()
+    if not redis_conn then
+        return false
+    end
+    return true
+end
+
 local function redis_connect_to_center()
     local host = game_config.center_redis.host
     local port = game_config.center_redis.port
@@ -68,9 +75,9 @@ local function get_uinfo_inredis(uid, ret_handler)
         local uinfo = {}
         uinfo.uid = uid
         uinfo.unick = ret[2]
-        uinfo.uface = tonumber(ret[4])
-        uinfo.uvip = tonumber(ret[6])
-        uinfo.usex = tonumber(ret[8])
+        uinfo.usex = tonumber(ret[4])
+        uinfo.uface = tonumber(ret[6])
+        uinfo.uvip = tonumber(ret[8])
         uinfo.is_guest = tonumber(ret[10])
 
         if ret_handler then
@@ -97,6 +104,7 @@ local redis_center = {
     set_uinfo_inredis = set_uinfo_inredis,
     get_uinfo_inredis = get_uinfo_inredis,
     edit_profile = edit_profile,
+    is_connected = is_connected,
 }
 
 return redis_center

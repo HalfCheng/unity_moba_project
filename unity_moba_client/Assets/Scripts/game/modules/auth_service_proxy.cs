@@ -138,6 +138,7 @@ public class auth_service_proxy : Singleton<auth_service_proxy>
     {
         //PlayerPrefs.DeleteAll();
         this.g_key = PlayerPrefs.GetString("moba_guest_key");
+        // this.g_key = null;
         if (this.g_key == null || this.g_key.Length <= 0)
         {
             this.g_key = utils.rand_str(32);

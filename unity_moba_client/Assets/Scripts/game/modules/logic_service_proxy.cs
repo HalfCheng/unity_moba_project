@@ -58,8 +58,9 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
         {
             return;
         }
-
-        Debug.Log(string.Format("enter match success unick = {0}, uface = {1}, usex = {3}", res.unick, res.uface, res.usex));
+        
+        event_manager.Instance.dispatch_event("user_arrived", res);
+        Debug.Log(string.Format("enter match success unick = {0}, uface = {1}, usex = {2}", res.unick, res.uface, res.usex));
     }
 
     private void on_logic_server_return(cmd_msg msg)

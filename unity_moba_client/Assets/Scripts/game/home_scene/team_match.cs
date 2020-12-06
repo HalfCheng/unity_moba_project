@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using gprotocol;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +28,15 @@ public class team_match : MonoBehaviour
 
     private void on_user_arrived(string name, object udata)
     {
+        UserArrived user_info = (UserArrived) udata;
+        this.member_count++;
+
+        this.scrollview.content.sizeDelta = new Vector2(0, this.member_count * 106);
+        GameObject user = GameObject.Instantiate(this.opt_prefab, this.scrollview.content);
+
+        user.transform.Find("name").GetComponent<Text>().text = user_info.unick;
+        user.transform.Find("header/avator").GetComponent<Image>().sprite = this.uface_img[user_info.uface - 1];
+        user.transform.Find("sex").GetComponent<Text>().text = (user_info.usex == 0) ? "male" : "female";
     }
 
     private void on_self_exit_match(string name, object udata)

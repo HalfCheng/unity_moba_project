@@ -26,6 +26,9 @@ local cmd_name_map = {
     "EnterZoneRes",
     "EnterMatch",
     "UserArrived",
+    "ExitMatchReq",
+    "ExitMatchRes",
+    "UserExitMatch",
 }
 
 return cmd_name_map

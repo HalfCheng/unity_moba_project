@@ -30,20 +30,27 @@ function player:init(uid, s, ret_handler)
     self.v_state = State.InView --玩家当前处于观战状态
     self.v_ugame_info = nil
     self.v_uinfo = nil
+    self.v_is_robot = false
 
     --数据库里面读取玩家的基本信息
     mysql_game.get_ugame_info(uid, function(err, ugame_info)
         if err then
-            ret_handler(Respones.SystemErr)
+            if ret_handler then
+                ret_handler(Respones.SystemErr)
+            end
         else
             self.v_ugame_info = ugame_info
             redis_center.get_uinfo_inredis(uid, function(err, uinfo)
                 if err then
-                    ret_handler(Respones.SystemErr)
+                    if ret_handler then
+                        ret_handler(Respones.SystemErr)
+                    end
                     return
                 end
                 self.v_uinfo = uinfo
-                ret_handler(Respones.OK)
+                if ret_handler then
+                    ret_handler(Respones.OK)
+                end
             end)
         end
     end)
@@ -57,8 +64,20 @@ function player:setmatchid(matchid)
     self.v_matchid = matchid
 end
 
+function player:getmatchid()
+    return self.v_matchid
+end
+
+function player:setzid(zid)
+    self.v_zid = zid
+end
+
+function player:getstate()
+    return self.v_state
+end
+
 function player:send_cmd(stype, ctype, body)
-    if not self.v_session then
+    if not self.v_session or self.v_is_robot then
         return
     end
     Session.send_msg(self.v_session, { stype, ctype, self.v_uid, body })

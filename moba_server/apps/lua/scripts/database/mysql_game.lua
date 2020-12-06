@@ -8,6 +8,13 @@ local game_config = require("game_config")
 local moba_game_config = require("moba_game_config")
 local mysql_conn = nil
 
+local function is_connected()
+    if not mysql_conn then
+        return false
+    end
+    return true
+end
+
 local function mysql_connect_to_moba_game()
     local conf = game_config.game_mysql
 
@@ -26,6 +33,57 @@ local function mysql_connect_to_moba_game()
 end
 
 mysql_connect_to_moba_game()
+
+local function get_robots_ugame_info(ret_handler)
+    if mysql_conn == nil then
+        if ret_handler then
+            ret_handler("mysql is not connected!", nil)
+        end
+        return
+    end
+
+    local sql_cmd = "select uid, uchip, uchip2, uchip3, uvip, uvip_endtime, udata1, udata2, udata3, uexp, ustatus from ugame where is_robot = 1";
+
+    MySql.query(mysql_conn, sql_cmd, function(err, ret)
+        if err then
+            if ret_handler then
+                ret_handler(err, nil)
+            end
+            return
+        end
+
+        --没有这条记录
+        if ret == nil or #ret <= 0 then
+            if ret_handler then
+                ret_handler(nil, nil)
+            end
+            return
+        end
+        
+        local robots = {}
+        for k, v in pairs(ret) do
+            local result = v
+            local one_robot = {
+                uid = tonumber(result[1]),
+                uchip = tonumber(result[2]),
+                uchip2 = tonumber(result[3]),
+                uchip3 = tonumber(result[4]),
+                uvip = tonumber(result[5]),
+                uvip_endtime = tonumber(result[6]),
+                udata1 = tonumber(result[7]),
+                udata2 = tonumber(result[8]),
+                udata3 = tonumber(result[9]),
+                uexp = tonumber(result[10]),
+                ustatus = tonumber(result[11]),
+            }
+            table.insert(robots, one_robot)
+        end
+
+        if ret_handler then
+            ret_handler(nil, robots)
+        end
+    end)
+end
 
 local function get_ugame_info(uid, ret_handler)
     if mysql_conn == nil then
@@ -68,7 +126,6 @@ local function get_ugame_info(uid, ret_handler)
             uexp = tonumber(result[10]),
             ustatus = tonumber(result[11]),
         }
-        print(uinfo.uid, uinfo.uchip, uinfo.uvip, uinfo.uexp)
         if ret_handler then
             ret_handler(nil, uinfo)
         end
@@ -126,7 +183,7 @@ local function get_bonues_info(uid, ret_handler)
             bonues_time = tonumber(result[4]),
             days = tonumber(result[5]),
         }
-        Logger.error(bonues_info.uid, bonues_info.bonues)
+        --Logger.error(bonues_info.uid, bonues_info.bonues)
         if ret_handler then
             ret_handler(nil, bonues_info)
         end
@@ -217,13 +274,13 @@ local function get_sys_msg(ret_handler)
             end
             return
         end
-        
+
         local result = {}
 
         for i, v in pairs(ret) do
             result[i] = v[1]
         end
-        
+
         if ret_handler then
             ret_handler(nil, result)
         end
@@ -239,6 +296,8 @@ local mysql_auth_center = {
     update_login_bonues_status = update_login_bonues_status,
     add_chip = add_chip,
     get_sys_msg = get_sys_msg,
+    is_connected = is_connected,
+    get_robots_ugame_info = get_robots_ugame_info,
 }
 
 return mysql_auth_center
