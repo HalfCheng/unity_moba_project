@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class network : UnitySinleton<network>
 {
+    #region TCP
+
     private string server_ip; //服务端ip
     private int port; //服务端端口号
 
@@ -24,6 +26,22 @@ public class network : UnitySinleton<network>
 
     private Queue<cmd_msg> net_events = null; //收发数据队列
 
+    #endregion
+
+    #region UDP
+
+    private string udp_server_ip = "127.0.0.1";
+    private int udp_port = 8800;
+    private IPEndPoint udp_remote_point = null;
+
+    private Socket udp_socket = null;
+    private Thread udp_recv_thread = null;
+
+    private byte[] udp_recv_buf = new byte[60 * 1024];
+    public int local_udp_port = 8888;
+
+    #endregion
+
     public delegate void net_message_handler(cmd_msg msg); //监听事件回调委托
 
     private Dictionary<int, net_message_handler> event_listeners; //事件监听的 map
@@ -35,6 +53,7 @@ public class network : UnitySinleton<network>
         {
             return;
         }
+
         Debug.LogError("Init+++++++");
         this.server_ip = server_ip;
         this.port = port;
@@ -42,6 +61,7 @@ public class network : UnitySinleton<network>
         this.net_events = new Queue<cmd_msg>();
         this.event_listeners = new Dictionary<int, net_message_handler>();
         this.connect_to_server();
+        this.udp_socket_init();
     }
 
     private void Update()
@@ -59,7 +79,7 @@ public class network : UnitySinleton<network>
         }
     }
 
-    void on_recv_tcp_cmd(byte[] data, int start, int data_len)
+    void on_recv_cmd(byte[] data, int start, int data_len)
     {
         cmd_msg msg;
         proto_man.unpack_cmd_msg(data, start, data_len, out msg);
@@ -93,7 +113,7 @@ public class network : UnitySinleton<network>
             int raw_data_start = head_size;
             int raw_data_len = pkg_size - head_size;
 
-            on_recv_tcp_cmd(pkg_data, raw_data_start, raw_data_len);
+            on_recv_cmd(pkg_data, raw_data_start, raw_data_len);
 
             if (this.recved > pkg_size)
             {
@@ -158,7 +178,7 @@ public class network : UnitySinleton<network>
             }
             catch (Exception e)
             {
-                Debug.Log(e.ToString());
+                Debug.LogError(e.ToString());
                 if (null != this.client_socket && this.client_socket.Connected)
                 {
                     this.client_socket.Disconnect(true);
@@ -251,10 +271,18 @@ public class network : UnitySinleton<network>
             return;
 
         if (this.recv_thread != null)
+        {
+            this.recv_thread.Interrupt();
             this.recv_thread.Abort();
+            this.recv_thread = null;
+        }
 
         if (null != this.client_socket && this.client_socket.Connected)
+        {
             this.client_socket.Close();
+            this.client_socket = null;
+        }
+
         this.is_connect = false;
     }
 
@@ -274,6 +302,7 @@ public class network : UnitySinleton<network>
             Debug.LogError("Error to Pack Msg!!");
             return;
         }
+
         //Debug.LogError("send_protobuf_cmd  " + stype + "  " + ctype);
         byte[] tcp_pkg = tcp_packer.pack(cmd_data);
 
@@ -287,7 +316,6 @@ public class network : UnitySinleton<network>
         {
             Debug.LogError(e);
         }
-        
     }
 
     public void send_protobuf_cmd(Stype stype, Cmd ctype, ProtoBuf.IExtensible body)
@@ -359,5 +387,90 @@ public class network : UnitySinleton<network>
         this.event_listeners[stype] -= handler;
         if (this.event_listeners[stype] == null)
             this.event_listeners.Remove(stype);
+    }
+
+    private void udp_socket_init()
+    {
+        //Udp遠程端口
+        this.udp_remote_point = new IPEndPoint(IPAddress.Parse(this.udp_server_ip), this.udp_port);
+
+        //創建一個UDP Socket
+        this.udp_socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+
+        //收數據 用另外一個綫程，如果不綁定，收無法收
+        IPEndPoint local_port = new IPEndPoint(IPAddress.Parse("127.0.0.1"), this.local_udp_port);
+        this.udp_socket.Bind(local_port);
+
+        //啓動一個綫程來收數據
+        this.udp_recv_thread = new Thread(new ThreadStart(this.udp_thread_recv_worker));
+        this.udp_recv_thread.Start();
+    }
+
+    void udp_thread_recv_worker()
+    {
+        while (true)
+        {
+            EndPoint remote = new IPEndPoint(IPAddress.Any, 0);
+
+            //阻塞
+            int recved = this.udp_socket.ReceiveFrom(this.udp_recv_buf, ref remote);
+            this.on_recv_cmd(this.udp_recv_buf, 0, recved);
+        }
+    }
+
+    public void udp_close()
+    {
+        if (this.udp_recv_thread != null)
+        {
+            this.udp_recv_thread.Interrupt();
+            this.udp_recv_thread.Abort();
+            this.udp_recv_thread = null;
+        }
+
+        if (null != this.udp_socket && this.udp_socket.Connected)
+        {
+            this.udp_socket.Close();
+            this.udp_socket = null;
+        }
+    }
+
+    public void udp_send_protobuf_cmd(Stype stype, Cmd ctype, ProtoBuf.IExtensible body)
+    {
+        udp_send_protobuf_cmd((int) stype, (int) ctype, body);
+    }
+
+    public void udp_send_protobuf_cmd(int stype, Cmd ctype, ProtoBuf.IExtensible body)
+    {
+        udp_send_protobuf_cmd((int) stype, (int) ctype, body);
+    }
+
+    void on_udp_send_data(IAsyncResult iar)
+    {
+        try
+        {
+            Socket client = (Socket) iar.AsyncState;
+            client.EndSendTo(iar);
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+            throw;
+        }
+    }
+
+    public void udp_send_protobuf_cmd(int stype, int ctype, ProtoBuf.IExtensible body)
+    {
+        byte[] cmd_data = proto_man.pack_protobuf_cmd(stype, ctype, body);
+        if (null == cmd_data)
+        {
+            Debug.LogError("Error to Pack Msg!!");
+            return;
+        }
+
+        // Debug.LogError("send_protobuf_cmd  " + stype + "  " + ctype);
+        byte[] tcp_pkg = tcp_packer.pack(cmd_data);
+
+        this.udp_socket.BeginSendTo(cmd_data, 0, cmd_data.Length, SocketFlags.None, this.udp_remote_point,
+            new AsyncCallback(this.on_udp_send_data), this.udp_socket);
     }
 }

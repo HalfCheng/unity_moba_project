@@ -123,8 +123,8 @@ local function search_inview_match_mgr(zid)
 
     local match = match_mgr:new()
     --table.insert(match_list, match)
-    match_list[match:getmatchid()] = match
     match:init(zid)
+    match_list[match:getmatchid()] = match
 
     return match
 end
@@ -132,6 +132,10 @@ end
 local function login_logic_server(s, req)
     local uid = req[3]
     local stype = req[1]
+    local body = req[4]
+
+    print(body.ip, body.udp_port)
+
     local p = logic_server_players[uid]
     --玩家对象已经在队列中, 更新一下session就可以了
     Logger.error("p == nil", p == nil, online_player_num)
@@ -141,7 +145,7 @@ local function login_logic_server(s, req)
     else
         p = player:new()
         p:init(uid, s, function(status)
-            Logger.error("player:init()", online_player_num, status)
+            Logger.error("login_logic_server()", online_player_num, status)
             if status == Respones.OK then
                 logic_server_players[uid] = p
                 online_player_num = online_player_num + 1
@@ -149,49 +153,7 @@ local function login_logic_server(s, req)
             send_status(s, Stype.Logic, Cmd.eLoginLogicRes, uid, status)
         end)
     end
-end
-
---玩家离开了
-local function on_player_disconnect(s, req)
-    local uid = req[3]
-    local p = logic_server_players[uid]
-    if not p then
-        return
-    end
-
-    --游戏中的玩家我们后续考虑
-    if p.v_zid ~= -1 then
-        --玩家在等待列表里面，则移除
-        if zone_wait_list[p.v_zid][uid] then
-            zone_wait_list[p.v_zid][uid] = nil
-            p.zid = -1
-            return
-        end
-    end
-    --end
-
-    --玩家断线离开中
-    if p then
-        Logger.error("on_player_disconnect", online_player_num)
-        logic_server_players[uid] = nil
-        online_player_num = online_player_num - 1
-    end
-    --end
-end
-
---网关断线
-local function on_gateway_disconnect(s)
-    for i, v in pairs(logic_server_players) do
-        v:set_session(nil)
-    end
-end
-
---网关连接
-local function on_gateway_connect(s)
-    print("on_gateway_connect")
-    for i, v in pairs(logic_server_players) do
-        v:set_session(s)
-    end
+    p:set_udp_addr(body.udp_ip, body.udp_port)
 end
 
 ---加入等待列表
@@ -201,7 +163,7 @@ local function enter_zone(s, req)
 
     local p = logic_server_players[uid]
 
-    if not p or p.v_zid ~= -1 then
+    if not p or p:getzid() ~= -1 then
         send_status(s, stype, Cmd.eEnterZoneRes, uid, Respones.InvalidOpt)
         return
     end
@@ -217,7 +179,7 @@ local function enter_zone(s, req)
     end
 
     zone_wait_list[zid][uid] = p
-    p.v_zid = zid
+    p:setzid(zid)
     send_status(s, stype, Cmd.eEnterZoneRes, uid, Respones.OK)
 end
 
@@ -251,6 +213,13 @@ local function search_idle_robot(zid)
     return nil
 end
 
+--测试代码
+local function do_exit_robot(match, robot)
+    Scheduler.once(function()
+        match:exit_player(robot)
+    end, 5000)
+end
+
 local function do_push_robot_to_match()
     for zid, match_list in pairs(zone_match_list) do
         for k, match in pairs(match_list) do
@@ -258,8 +227,9 @@ local function do_push_robot_to_match()
                 --找到一个空闲的match
                 local robot = search_idle_robot(zid)
                 if robot then
-                    Logger.error("enter_player")
                     match:enter_player(robot)
+
+                    --do_exit_robot(match, robot)
                 end
             end
         end
@@ -278,18 +248,106 @@ local function do_exit_match(s, req)
     end
 
     --如果不是 inview 状态就无法离开
-    if p:getstate() ~= State.InViewor or p:getmatchid() == -1 then
+    if p:getstate() ~= State.InView or p:getmatchid() == -1 or p:getseatid() == -1 then
         send_status(s, req[1], Cmd.eExitMatchRes, uid, Respones.InvalidOpt)
         return
     end
-    
-    local match = zone_match_list[p:setzid()][p:getmatchid()]
+
+    local match = zone_match_list[p:getzid()][p:getmatchid()]
     if not match or match.v_state ~= State.InView then
         send_status(s, req[1], Cmd.eExitMatchRes, uid, Respones.InvalidOpt)
         return
     end
-    
+
     match:exit_player(p);
+end
+
+--掉线离开比赛房间
+local function do_offline_match(req)
+    local uid = req[3]
+    local p = logic_server_players[uid]
+    if not p then
+        return
+    end
+
+    --如果不是 inview 状态就无法离开
+    if p:getstate() ~= State.InView or p:getmatchid() == -1 or p:getseatid() == -1 then
+        return
+    end
+
+    local match = zone_match_list[p:getzid()][p:getmatchid()]
+    if not match or match.v_state ~= State.InView then
+        return
+    end
+
+    match:offline_player(p)
+end
+
+--玩家离开了
+local function on_player_disconnect(s, req)
+    local uid = req[3]
+    local p = logic_server_players[uid]
+    if not p then
+        return
+    end
+
+    p:set_session(nil)
+    p:set_udp_addr(nil, 0)
+
+    --游戏中的玩家我们后续考虑
+    if p.v_zid ~= -1 then
+        --玩家在等待列表里面，则移除
+        if zone_wait_list[p.v_zid][uid] then
+            zone_wait_list[p.v_zid][uid] = nil
+            p.zid = -1
+        end
+    end
+    --end
+
+    --玩家断线离开中
+    if p then
+        Logger.error("on_player_disconnect", online_player_num)
+        online_player_num = online_player_num - 1
+        do_offline_match(p)
+        logic_server_players[uid] = nil
+    end
+    --end
+end
+
+--网关断线
+local function on_gateway_disconnect(s)
+    for i, v in pairs(logic_server_players) do
+        v:set_session(nil)
+    end
+end
+
+--网关连接
+local function on_gateway_connect(s)
+    print("on_gateway_connect")
+    for i, v in pairs(logic_server_players) do
+        v:set_session(s)
+    end
+end
+
+local function on_next_frame_event(s, req)
+    --local stype = req[1]
+    --local ctype = req[2]
+    local body = req[4]
+    
+    local match = zone_match_list[body.zid][body.matchid]
+    if not match or match.v_state ~= State.Playing then
+        Logger.error("not find")
+        return
+    end
+    
+    match:on_next_frame_event(body)
+end
+
+local function do_udp_test(s, req)
+    local stype = req[1]
+    local ctype = req[2]
+    local body = req[4]
+    Logger.error(stype, ctype, body.content)
 end
 
 local game_mgr = {
@@ -299,6 +357,8 @@ local game_mgr = {
     on_gateway_connect = on_gateway_connect,
     enter_zone = enter_zone,
     do_exit_match = do_exit_match,
+    do_udp_test = do_udp_test,
+    on_next_frame_event = on_next_frame_event,
 }
 
 return game_mgr

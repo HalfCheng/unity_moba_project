@@ -1,10 +1,16 @@
-#include "service_export_to_lua.h"
+ï»¿#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 #include "lua_wrapper.h"
 #include "../netbus/service.h"
-#include "../utils/logger.h"
-#include "../netbus/service_man.h"
+#include "../netbus/session.h"
 #include "../netbus/proto_man.h"
+#include "../netbus/service_man.h"
+#include "google/protobuf/message.h"
+#include "../utils/logger.h"
+
+using namespace google::protobuf;
 
 #ifdef __cplusplus
 extern "C"
@@ -16,10 +22,9 @@ extern "C"
 #ifdef __cplusplus
 }
 #endif
-#include "tolua_fix.h"
 
-#include "google/protobuf/message.h"
-using namespace google::protobuf;
+
+#include "service_export_to_lua.h"
 
 #define SERVICE_FUNCTION_MAPPING "service_function_mapping"
 
@@ -142,132 +147,6 @@ int execute_service_function(int nHandler, int numArgs)
 	return ret;
 }
 
-void push_proto_message_tolua(const Message* message)
-{
-	if (!message)
-	{
-		log_error("PushProtobuf2LuaTable failed, message is NULL");
-		return;
-	}
-	const Reflection* reflection = message->GetReflection();
-	lua_State* lua_state = lua_wrapper::lua_state();
-
-	lua_newtable(lua_state);
-
-	const Descriptor* descriptor = message->GetDescriptor();
-	for (int32_t index = 0; index < descriptor->field_count(); ++index)
-	{
-		const FieldDescriptor* fd = descriptor->field(index);
-		const std::string& name = fd->lowercase_name();
-
-		//key
-		lua_pushstring(lua_state, name.c_str());
-
-		bool bReapeted = fd->is_repeated();
-		if (bReapeted)
-		{
-			lua_newtable(lua_state);
-			int size = reflection->FieldSize(*message, fd);
-			for (int i = 0; i < size; ++i) {
-				char str[32] = { 0 };
-				switch (fd->cpp_type()) {
-				case FieldDescriptor::CPPTYPE_DOUBLE:
-					lua_pushnumber(lua_state, reflection->GetRepeatedDouble(*message, fd, i));
-					break;
-				case FieldDescriptor::CPPTYPE_FLOAT:
-					lua_pushnumber(lua_state, (double)reflection->GetRepeatedFloat(*message, fd, i));
-					break;
-				case FieldDescriptor::CPPTYPE_INT64:
-					sprintf(str, "%lld", (long long)reflection->GetRepeatedInt64(*message, fd, i));
-					lua_pushstring(lua_state, str);
-					break;
-				case FieldDescriptor::CPPTYPE_UINT64:
-
-					sprintf(str, "%llu", (unsigned long long)reflection->GetRepeatedUInt64(*message, fd, i));
-					lua_pushstring(lua_state, str);
-					break;
-				case FieldDescriptor::CPPTYPE_ENUM: // Óëint32Ò»Ñù´¦Àí
-					lua_pushinteger(lua_state, reflection->GetRepeatedEnum(*message, fd, i)->number());
-					break;
-				case FieldDescriptor::CPPTYPE_INT32:
-					lua_pushinteger(lua_state, reflection->GetRepeatedInt32(*message, fd, i));
-					break;
-				case FieldDescriptor::CPPTYPE_UINT32:
-					lua_pushinteger(lua_state, reflection->GetRepeatedUInt32(*message, fd, i));
-					break;
-				case FieldDescriptor::CPPTYPE_STRING:
-				{
-					std::string value = reflection->GetRepeatedString(*message, fd, i);
-					lua_pushlstring(lua_state, value.c_str(), value.size());
-				}
-				break;
-				case FieldDescriptor::CPPTYPE_BOOL:
-					lua_pushboolean(lua_state, reflection->GetRepeatedBool(*message, fd, i));
-					break;
-				case FieldDescriptor::CPPTYPE_MESSAGE:
-					push_proto_message_tolua(&(reflection->GetRepeatedMessage(*message, fd, i)));
-					break;
-				default:
-					break;
-				}
-				lua_rawseti(lua_state, -2, i + 1); // lua's index start at 1
-			}
-		}
-		else
-		{
-			char str[32] = { 0 };
-			switch (fd->cpp_type()) {
-
-			case FieldDescriptor::CPPTYPE_DOUBLE:
-				lua_pushnumber(lua_state, reflection->GetDouble(*message, fd));
-				break;
-
-			case FieldDescriptor::CPPTYPE_FLOAT:
-				lua_pushnumber(lua_state, (double)reflection->GetFloat(*message, fd));
-				break;
-
-			case FieldDescriptor::CPPTYPE_INT64:
-
-				sprintf(str, "%lld", (long long)reflection->GetInt64(*message, fd));
-				lua_pushstring(lua_state, str);
-				break;
-
-			case FieldDescriptor::CPPTYPE_UINT64:
-
-				sprintf(str, "%llu", (unsigned long long)reflection->GetUInt64(*message, fd));
-				lua_pushstring(lua_state, str);
-				break;
-
-			case FieldDescriptor::CPPTYPE_ENUM: // Óëint32Ò»Ñù´¦Àí
-				lua_pushinteger(lua_state, (int)reflection->GetEnum(*message, fd)->number());
-				break;
-
-			case FieldDescriptor::CPPTYPE_INT32:
-				lua_pushinteger(lua_state, reflection->GetInt32(*message, fd));
-				break;
-			case FieldDescriptor::CPPTYPE_UINT32:
-				lua_pushinteger(lua_state, reflection->GetUInt32(*message, fd));
-				break;
-			case FieldDescriptor::CPPTYPE_STRING:
-			{
-				std::string value = reflection->GetString(*message, fd);
-				lua_pushlstring(lua_state, value.c_str(), value.size());
-			}
-			break;
-			case FieldDescriptor::CPPTYPE_BOOL:
-				lua_pushboolean(lua_state, reflection->GetBool(*message, fd));
-				break;
-			case FieldDescriptor::CPPTYPE_MESSAGE:
-				push_proto_message_tolua(&(reflection->GetMessage(*message, fd)));
-				break;
-			default:
-				break;
-			}
-			lua_rawset(lua_state, -3);
-		}
-	}
-}
-
 class lua_service : public service
 {
 public:
@@ -283,39 +162,161 @@ public:
 	virtual void on_session_connect(session* s, int stype);
 };
 
+void push_proto_message_tolua(const Message* message)
+{
+	lua_State* state = lua_wrapper::lua_state();
+	if (!message) {
+		// printf("PushProtobuf2LuaTable failed, message is NULL");
+		return;
+	}
+	const Reflection* reflection = message->GetReflection();
+
+	// 
+	lua_newtable(state);
+
+	const Descriptor* descriptor = message->GetDescriptor();
+	for (int32_t index = 0; index < descriptor->field_count(); ++index) {
+		const FieldDescriptor* fd = descriptor->field(index);
+		const std::string& name = fd->lowercase_name();
+
+		// key
+		lua_pushstring(state, name.c_str());
+
+		bool bReapeted = fd->is_repeated();
+
+		if (bReapeted) {
+			// repeatedï¿½ï¿½ï¿½ï¿½table
+			lua_newtable(state);
+			int size = reflection->FieldSize(*message, fd);
+			for (int i = 0; i < size; ++i) {
+				char str[32] = { 0 };
+				switch (fd->cpp_type()) {
+				case FieldDescriptor::CPPTYPE_DOUBLE:
+					lua_pushnumber(state, reflection->GetRepeatedDouble(*message, fd, i));
+					break;
+				case FieldDescriptor::CPPTYPE_FLOAT:
+					lua_pushnumber(state, (double)reflection->GetRepeatedFloat(*message, fd, i));
+					break;
+				case FieldDescriptor::CPPTYPE_INT64:
+					sprintf(str, "%lld", (long long)reflection->GetRepeatedInt64(*message, fd, i));
+					lua_pushstring(state, str);
+					break;
+				case FieldDescriptor::CPPTYPE_UINT64:
+
+					sprintf(str, "%llu", (unsigned long long)reflection->GetRepeatedUInt64(*message, fd, i));
+					lua_pushstring(state, str);
+					break;
+				case FieldDescriptor::CPPTYPE_ENUM: // ï¿½ï¿½int32Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+					lua_pushinteger(state, reflection->GetRepeatedEnum(*message, fd, i)->number());
+					break;
+				case FieldDescriptor::CPPTYPE_INT32:
+					lua_pushinteger(state, reflection->GetRepeatedInt32(*message, fd, i));
+					break;
+				case FieldDescriptor::CPPTYPE_UINT32:
+					lua_pushinteger(state, reflection->GetRepeatedUInt32(*message, fd, i));
+					break;
+				case FieldDescriptor::CPPTYPE_STRING:
+				{
+					std::string value = reflection->GetRepeatedString(*message, fd, i);
+					lua_pushlstring(state, value.c_str(), value.size());
+				}
+				break;
+				case FieldDescriptor::CPPTYPE_BOOL:
+					lua_pushboolean(state, reflection->GetRepeatedBool(*message, fd, i));
+					break;
+				case FieldDescriptor::CPPTYPE_MESSAGE:
+					push_proto_message_tolua(&(reflection->GetRepeatedMessage(*message, fd, i)));
+					break;
+				default:
+					break;
+				}
+
+				lua_rawseti(state, -2, i + 1); // lua's index start at 1
+			}
+
+		}
+		else {
+			char str[32] = { 0 };
+			switch (fd->cpp_type()) {
+
+			case FieldDescriptor::CPPTYPE_DOUBLE:
+				lua_pushnumber(state, reflection->GetDouble(*message, fd));
+				break;
+			case FieldDescriptor::CPPTYPE_FLOAT:
+				lua_pushnumber(state, (double)reflection->GetFloat(*message, fd));
+				break;
+			case FieldDescriptor::CPPTYPE_INT64:
+
+				sprintf(str, "%lld", (long long)reflection->GetInt64(*message, fd));
+				lua_pushstring(state, str);
+				break;
+			case FieldDescriptor::CPPTYPE_UINT64:
+
+				sprintf(str, "%llu", (unsigned long long)reflection->GetUInt64(*message, fd));
+				lua_pushstring(state, str);
+				break;
+			case FieldDescriptor::CPPTYPE_ENUM: // ï¿½ï¿½int32Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+				lua_pushinteger(state, (int)reflection->GetEnum(*message, fd)->number());
+				break;
+			case FieldDescriptor::CPPTYPE_INT32:
+				lua_pushinteger(state, reflection->GetInt32(*message, fd));
+				break;
+			case FieldDescriptor::CPPTYPE_UINT32:
+				lua_pushinteger(state, reflection->GetUInt32(*message, fd));
+				break;
+			case FieldDescriptor::CPPTYPE_STRING:
+			{
+				std::string value = reflection->GetString(*message, fd);
+				lua_pushlstring(state, value.c_str(), value.size());
+			}
+			break;
+			case FieldDescriptor::CPPTYPE_BOOL:
+				lua_pushboolean(state, reflection->GetBool(*message, fd));
+				break;
+			case FieldDescriptor::CPPTYPE_MESSAGE:
+				push_proto_message_tolua(&(reflection->GetMessage(*message, fd)));
+				break;
+			default:
+				break;
+			}
+		}
+
+		lua_rawset(state, -3);
+	}
+}
+
 bool lua_service::on_session_recv_cmd(session * s, struct cmd_msg * msg)
 {
 	lua_State* lua_state = lua_wrapper::lua_state();
 	tolua_pushuserdata(lua_state, (void*)s);
 	int index = 1;
-	lua_newtable(lua_state);
 
+	lua_newtable(lua_state);
 	lua_pushinteger(lua_state, msg->stype);
-	lua_rawseti(lua_state, -2, index);
+	lua_rawseti(lua_state, -2, index);          /* table[index] = value, L: table */
 	++index;
 
 	lua_pushinteger(lua_state, msg->ctype);
-	lua_rawseti(lua_state, -2, index);
+	lua_rawseti(lua_state, -2, index);          /* table[index] = value, L: table */
 	++index;
 
 	lua_pushinteger(lua_state, msg->utag);
-	lua_rawseti(lua_state, -2, index);
+	lua_rawseti(lua_state, -2, index);          /* table[index] = value, L: table */
 	++index;
 
-	if (!msg->body)
-	{
+	if (!msg->body) {
 		lua_pushnil(lua_state);
-		lua_rawseti(lua_state, -2, index);
+		lua_rawseti(lua_state, -2, index);          /* table[index] = value, L: table */
 		++index;
 	}
-	else
-	{
-		if (proto_man::proto_type() == PROTO_JSON)
+	else {
+		if (proto_man::proto_type() == PROTO_JSON) {
 			lua_pushstring(lua_state, (char*)msg->body);
-		else if (proto_man::proto_type() == PROTO_BUF)
+		}
+		else { // protobuf
 			push_proto_message_tolua((Message*)msg->body);
-
-		lua_rawseti(lua_state, -2, index);
+		}
+		lua_rawseti(lua_state, -2, index);          /* table[index] = value, L: table */
 		++index;
 	}
 
@@ -344,8 +345,7 @@ void lua_service::on_session_connect(session * s, int stype)
 {
 	tolua_pushuserdata(lua_wrapper::lua_state(), (void*)s);
 	lua_pushinteger(lua_wrapper::lua_state(), stype);
-	if(this->lua_connect_handler)
-	{
+	if (this->lua_connect_handler) {
 		execute_service_function(this->lua_connect_handler, 2);
 	}
 }
@@ -430,8 +430,8 @@ static int lua_register_raw_service(lua_State* tolua_S)
 	s->using_raw_cmd = true;
 
 	ret = service_man::register_service(type, s);
-	lua_pushboolean(tolua_S, ret ? 1 : 0);
 
+	lua_pushboolean(tolua_S, ret ? 1 : 0);
 	return 1;
 
 lua_failed:
@@ -442,6 +442,7 @@ lua_failed:
 int register_service_export(lua_State * tolua_S)
 {
 	init_service_function_map(tolua_S);
+
 	lua_getglobal(tolua_S, "_G");
 	if (lua_istable(tolua_S, -1))
 	{

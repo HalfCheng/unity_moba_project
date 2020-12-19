@@ -74,7 +74,8 @@ void session_uv::init()
 
 session_uv * session_uv::create()
 {
-	session_uv* uv_s = (session_uv*)cache_alloc(session_allocer, sizeof(session_uv));
+	//session_uv* uv_s = (session_uv*)cache_alloc(session_allocer, sizeof(session_uv));  //linus ²»Ö§³Ö
+	session_uv* uv_s = new session_uv();
 	uv_s->session_uv::session_uv();
 
 	uv_s->init();
@@ -86,7 +87,18 @@ void session_uv::destroy(session_uv * s)
 {
 	s->exit();
 	s->~session_uv();
-	cache_free(session_allocer, s);
+	//cache_free(session_allocer, s);
+	delete s;
+}
+
+void* session_uv::operator new(size_t size)
+{
+	return cache_alloc(session_allocer, sizeof(session_uv));;
+}
+
+void session_uv::operator delete(void * mem)
+{
+	cache_free(session_allocer, mem);
 }
 
 void session_uv::exit()
@@ -107,7 +119,11 @@ void session_uv::close()
 	this->is_shutdown = true;
 	uv_shutdown_t* reg = &this->shutdown;
 	memset(reg, 0, sizeof(uv_shutdown_t));
-	uv_shutdown(reg, (uv_stream_t*)&this->tcp_handler, on_shutdown);
+	int ret = uv_shutdown(reg, (uv_stream_t*)&this->tcp_handler, on_shutdown);
+	if(ret != 0)
+	{
+		uv_close((uv_handle_t*)&this->tcp_handler, on_close);
+	}
 }
 
 void session_uv::send_data(unsigned char * body, int len)

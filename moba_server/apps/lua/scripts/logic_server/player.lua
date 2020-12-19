@@ -27,10 +27,18 @@ function player:init(uid, s, ret_handler)
     self.v_uid = uid
     self.v_zid = -1 --玩家所在的战场空间（圣光营地/奥斯深渊）
     self.v_matchid = -1 --玩家所在的比赛房间的id
+    self.v_seatid = -1 --玩家在比赛中的座位号
+    self.v_side = -1 --玩家阵营(l,r)
+    self.v_heroid = -1 --玩家当前选择的英雄[1, 5]
     self.v_state = State.InView --玩家当前处于观战状态
+
+    self.v_client_ip = nil
+    self.v_client_udp_port = nil
+
     self.v_ugame_info = nil
     self.v_uinfo = nil
     self.v_is_robot = false
+    self.v_sunc_frameid = 0 --当前玩家同步到的帧 
 
     --数据库里面读取玩家的基本信息
     mysql_game.get_ugame_info(uid, function(err, ugame_info)
@@ -60,20 +68,58 @@ function player:init(uid, s, ret_handler)
     --end
 end
 
+function player:clearmatchdata()
+    self.v_zid = -1 --玩家所在的战场空间（圣光营地/奥斯深渊）
+    self.v_matchid = -1 --玩家所在的比赛房间的id
+    self.v_seatid = -1
+    self.v_state = State.InView --玩家当前处于观战状态
+end
+
 function player:setmatchid(matchid)
     self.v_matchid = matchid
 end
-
-function player:getmatchid()
-    return self.v_matchid
+function player:setstate(state)
+    self.v_state = state
 end
 
 function player:setzid(zid)
     self.v_zid = zid
 end
 
+function player:setseatid(seatid)
+    self.v_seatid = seatid
+end
+
+function player:getzid()
+    return self.v_zid
+end
+
 function player:getstate()
     return self.v_state
+end
+
+function player:getmatchid()
+    return self.v_matchid
+end
+
+function player:getseatid()
+    return self.v_seatid
+end
+
+function player:side(side)
+    if side then
+        self.v_side = side
+    else
+        return self.v_side
+    end
+end
+
+function player:heroid(heroid)
+    if heroid then
+        self.v_heroid = heroid
+    else
+        return self.v_heroid
+    end
 end
 
 function player:send_cmd(stype, ctype, body)
@@ -83,8 +129,24 @@ function player:send_cmd(stype, ctype, body)
     Session.send_msg(self.v_session, { stype, ctype, self.v_uid, body })
 end
 
+function player:udp_send_cmd(stype, ctype, body)
+    --玩家断线 或者是机器人
+    if not self.v_session or self.v_is_robot then
+        return
+    end
+    if not self.v_client_ip or self.v_client_udp_port == 0 then
+        return
+    end
+    Session.udp_send_cmd(self.v_client_ip, self.v_client_udp_port, { stype, ctype, self.v_uid, body })
+end
+
 function player:get_user_arrived()
-    local body = { unick = "", uface = 0, usex = 0 }
+    local body = { unick = "",
+                   uface = 0,
+                   usex = 0,
+                   seatid = self.v_seatid,
+                   side = self.v_side,
+    }
 
     if self.v_uinfo then
         body.unick = self.v_uinfo.unick
@@ -94,6 +156,11 @@ function player:get_user_arrived()
         Logger.error("can not get the user info: ", self.v_uid)
     end
     return body
+end
+
+function player:set_udp_addr(ip, port)
+    self.v_client_ip = ip
+    self.v_client_udp_port = port
 end
 
 function player:set_session(session)

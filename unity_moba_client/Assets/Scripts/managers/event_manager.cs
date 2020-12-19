@@ -11,15 +11,20 @@ public class event_manager : Singleton<event_manager>
     }
     
     //region 订阅
-    public void add_event_listener(string name, on_event_handler handler)
+    /// <summary>
+    /// 监听事件
+    /// </summary>
+    /// <param name="eventName"></param>
+    /// <param name="handler"></param>
+    public void add_event_listener(string eventName, on_event_handler handler)
     {
-        if (this.event_listeners.ContainsKey(name))
+        if (this.event_listeners.ContainsKey(eventName))
         {
-            this.event_listeners[name] += handler;
+            this.event_listeners[eventName] += handler;
         }
         else
         {
-            this.event_listeners.Add(name, handler);
+            this.event_listeners.Add(eventName, handler);
         }
     }
 

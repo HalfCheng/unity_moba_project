@@ -13,11 +13,10 @@ void session_udp::close()
 
 static void on_uv_udp_send_end(uv_udp_send_t* req, int statuc)
 {
-	if(statuc == 0)
+	if (statuc == 0)
 	{
-		
+		my_free(req);
 	}
-	my_free(req);
 }
 
 void session_udp::send_data(unsigned char * body, int len)

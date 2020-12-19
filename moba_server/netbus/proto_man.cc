@@ -198,7 +198,6 @@ void proto_man::msg_raw_free(unsigned char * raw)
 google::protobuf::Message * proto_man::create_message(const char * type_name)
 {
 	google::protobuf::Message* message = NULL;
-
 	//find msg by name
 	const google::protobuf::Descriptor* descriptor = google::protobuf::DescriptorPool::generated_pool()->FindMessageTypeByName(type_name);
 	if (descriptor)
@@ -211,7 +210,7 @@ google::protobuf::Message * proto_man::create_message(const char * type_name)
 	}
 	else
 	{
-		log_error("can't not find the message by type_name: ", type_name);
+		log_error(type_name);
 	}
 	return message;
 }

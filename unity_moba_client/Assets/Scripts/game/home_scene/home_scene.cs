@@ -1,5 +1,4 @@
-﻿using UnityEditor.U2D.Sprites;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -32,20 +31,30 @@ public class home_scene : MonoBehaviour
     public Image img_war_btn;
 
     public GameObject team_match_prefab;
+    public GameObject loading_page;
 
     private void Start()
     {
-        event_manager.Instance.add_event_listener("sync_uinfo", this.sync_uinfo);
+        var instance = event_manager.Instance;
+        instance.add_event_listener("sync_uinfo", this.sync_uinfo);
+        instance.add_event_listener("login_out", this.on_user_login_out);
+        instance.add_event_listener("sync_ugame_info", this.sync_ugame_info);
+        instance.add_event_listener("game_start", on_game_start);
         this.sync_uinfo("sync_uinfo", null);
-
-        event_manager.Instance.add_event_listener("login_out", this.on_user_login_out);
-
-        event_manager.Instance.add_event_listener("sync_ugame_info", this.sync_ugame_info);
         this.sync_ugame_info("sync_ugame_info", null);
-
         this.on_home_page_click();
+        this.on_war_page_click();
+        this.on_zone_sgyd_click();
     }
 
+    
+    private void on_game_start(string name, object udata)
+    {
+        Debug.Log("start game go go go!!!");
+        // SceneManager.LoadScene("game_scene");
+        this.loading_page.SetActive(true); // 现实除加载进度页面;
+    }
+    
     public void on_home_page_click()
     {
         this.home_page.SetActive(true);
@@ -149,8 +158,10 @@ public class home_scene : MonoBehaviour
 
     private void OnDestroy()
     {
-        event_manager.Instance.remove_event_listener("sync_uinfo", this.sync_uinfo);
-        event_manager.Instance.remove_event_listener("login_out", this.on_user_login_out);
-        event_manager.Instance.remove_event_listener("sync_ugame_info", this.sync_ugame_info);
+        var instance = event_manager.Instance;
+        instance.remove_event_listener("sync_uinfo", this.sync_uinfo);
+        instance.remove_event_listener("login_out", this.on_user_login_out);
+        instance.remove_event_listener("sync_ugame_info", this.sync_ugame_info);
+        instance.remove_event_listener("game_start", this.on_game_start);
     }
 }

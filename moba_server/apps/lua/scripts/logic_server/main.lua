@@ -3,7 +3,7 @@
 --- Created by 1.
 --- DateTime: 2020/11/23 23:08
 ---
-Logger.init("logger/logic_server/", "logic_server", true)
+Logger.init("logger/logic_server/", "logic_server", true, false)
 
 -- 初始化协议模块
 local proto_type = {
@@ -24,8 +24,9 @@ end
 local game_config = require("game_config")
 local Stype = require("Stype")
 local servers = game_config.servers
-print("Auth Server Start at " .. servers[Stype.Logic].port)
+print("Logic Server Start at " .. servers[Stype.Logic].port)
 Netbus.tcp_listen(servers[Stype.Logic].port)
+Netbus.udp_listen(8800);
 --end
 
 local logic_server = require("logic_server/logic_service")

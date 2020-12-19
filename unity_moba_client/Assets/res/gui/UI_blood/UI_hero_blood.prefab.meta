@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: fe1847534e9cff34f9c9a3f3aaf4ee67
-timeCreated: 1546839732
-licenseType: Pro
-NativeFormatImporter:
-  mainObjectFileID: 100100000
+PrefabImporter:
+  externalObjects: {}
   userData: 
-  assetBundleName: 
+  assetBundleName: ui_hero_blood
   assetBundleVariant: 

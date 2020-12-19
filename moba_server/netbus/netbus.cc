@@ -11,10 +11,22 @@
 #include "session_udp.h"
 using namespace std;
 
+#include "../utils/small_allocer.h"
+#define my_malloc small_alloc
+#define my_free small_free
+
 //#define SERVER_ADDRESS "192.168.1.104"
 #define SERVER_ADDRESS "127.0.0.1"
 
 extern "C" {
+	static void on_uv_udp_send_end(uv_udp_send_t* req, int statuc)
+	{
+		if (statuc == 0)
+		{
+			my_free(req);
+		}
+	}
+
 	static void on_recv_client_cmd(session* s, unsigned char* body, int len)
 	{
 		struct raw_cmd raw;
@@ -38,6 +50,12 @@ extern "C" {
 
 			if (!tp_protocol::read_header(pkg_data, s->recved, &pkg_size, &head_size))
 			{
+				break;
+			}
+
+			if(pkg_size <= head_size)
+			{
+				s->close();
 				break;
 			}
 
@@ -181,6 +199,10 @@ extern "C" {
 
 	static void after_uv_udp_recv(uv_udp_t* handle, ssize_t nread, const uv_buf_t* buf, const struct sockaddr* addr, unsigned flags)
 	{
+		if(nread <= 0)
+		{
+			return;
+		}
 		session_udp udp_s;
 		udp_s.addr = addr;
 		udp_s.udp_handle = handle;
@@ -267,6 +289,10 @@ netbus * netbus::instance()
 	return &g_netbus;
 }
 
+netbus::netbus()
+{
+	this->udp_handler = NULL;
+}
 
 void netbus::tcp_listen(int port)
 {
@@ -309,6 +335,11 @@ void netbus::ws_listen(int port)
 
 void netbus::udp_listen(int port)
 {
+	//只允许启动一个UDPhandle
+	if(this->udp_handler)
+	{
+		return;
+	}
 	uv_udp_t* server = (uv_udp_t*)malloc(sizeof(uv_udp_t));
 	memset(server, 0, sizeof(uv_udp_t));
 
@@ -322,6 +353,7 @@ void netbus::udp_listen(int port)
 	uv_ip4_addr(SERVER_ADDRESS, port, &addr);
 	uv_udp_bind(server, (const struct sockaddr*)&addr, 0);
 
+	this->udp_handler = (void*)server;
 	uv_udp_recv_start(server, udp_uv_alloc_buf, after_uv_udp_recv);
 }
 
@@ -367,7 +399,7 @@ static void after_connect(uv_connect_t* handle, int status)
 	free(handle);
 }
 
-void netbus::tcp_connect(const char * server_ip, int port, void(*on_connected)(int err, session *s, void *udata), void * udata)
+ void netbus::tcp_connect(const char * server_ip, int port, void(*on_connected)(int err, session *s, void *udata), void * udata)
 {
 	struct sockaddr_in bind_addr;
 	int iret = uv_ip4_addr(server_ip, port, &bind_addr);
@@ -404,4 +436,20 @@ void netbus::tcp_connect(const char * server_ip, int port, void(*on_connected)(i
 	{
 		return;
 	}
+}
+
+
+
+void netbus::udp_send_to(char * ip, int port, unsigned char * body, int len)
+{
+	uv_buf_t w_buf;
+	w_buf = uv_buf_init((char*)body, len);
+	uv_udp_send_t* req = (uv_udp_send_t*)my_malloc(sizeof(uv_udp_send_t));
+
+	SOCKADDR_IN addr;
+	addr.sin_family = AF_INET;
+	addr.sin_port = htons(port);
+	addr.sin_addr.S_un.S_addr = inet_addr(ip);
+
+	uv_udp_send(req, (uv_udp_t*)this->udp_handler, &w_buf, 1, (const struct sockaddr*)&addr, on_uv_udp_send_end);
 }

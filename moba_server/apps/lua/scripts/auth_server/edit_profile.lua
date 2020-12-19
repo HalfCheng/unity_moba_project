@@ -10,6 +10,7 @@ local Respones = require("Respones")
 local Stype = require("Stype")
 local Cmd = require("Cmd")
 
+--修改用户资料  name，sex，uface等
 --{stype, ctype, utag, body}
 local function do_edit_profile(s, rec_msg)
     local uid = rec_msg[3];

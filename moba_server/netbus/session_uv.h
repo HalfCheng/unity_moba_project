@@ -38,6 +38,8 @@ public:
 public:
 	static session_uv* create();
 	static void destroy(session_uv* s);
+	void* operator new(size_t size);
+	void operator delete(void* mem);
 
 public:
 	virtual void close();
