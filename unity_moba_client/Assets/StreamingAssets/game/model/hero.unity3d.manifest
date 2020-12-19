@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1619281265
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ada60efe30c21cd6389c47b24f47dc3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a609a2980f31251e991f54583bdb0f6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Monsters/Jinglingnan_6.prefab
+- Assets/Resources/Monsters/Jinglingnv_6.prefab
+Dependencies: []

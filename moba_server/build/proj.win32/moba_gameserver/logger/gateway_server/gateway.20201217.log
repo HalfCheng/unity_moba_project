@@ -1,0 +1,120 @@
+20201217 23:08:01 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server TCP Start At 6080
+20201217 23:08:01 DEBUG ../../../apps/lua/scripts/gateway/main.lua:31  
+Server WS Start At 6081
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service success!
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [2] service success!
+20201217 23:08:02 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [3] service success!
+20201217 23:08:03 DEBUG ../../../apps/lua/scripts/database/mysql_auth_center.lua:27  
+connect to auth center db success!!!!
+20201217 23:08:04 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:15 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:15 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:18 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:08:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:08:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:18 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:19 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:20 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:20 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:08:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:08:21 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:21 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:22 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:23 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:08:23 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:08:24 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:08:24 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:08:26 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:08:26 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:21:17 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server TCP Start At 6080
+20201217 23:21:17 DEBUG ../../../apps/lua/scripts/gateway/main.lua:31  
+Server WS Start At 6081
+20201217 23:21:17 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:21:37 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:21:46 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:21:58 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service success!
+20201217 23:21:58 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [2] service success!
+20201217 23:21:58 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [3] service success!
+20201217 23:21:58 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:21:58 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:21:58 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:23:09 DEBUG ../../../apps/lua/scripts/gateway/main.lua:29  
+Server TCP Start At 6080
+20201217 23:23:09 DEBUG ../../../apps/lua/scripts/gateway/main.lua:31  
+Server WS Start At 6081
+20201217 23:23:09 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:23:18 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:23:25 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:23:25 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [1] service success!
+20201217 23:23:25 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [2] service success!
+20201217 23:23:25 DEBUG ../../../apps/lua/scripts/gateway/main.lua:40  
+register [3] service success!
+20201217 23:23:25 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:23:30 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:23:30 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Logic server] 127.0.0.1 : 8002
+20201217 23:23:30 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001
+20201217 23:23:34 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [System server] 127.0.0.1 : 8001
+20201217 23:23:34 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Logic server] 127.0.0.1 : 8002
+20201217 23:23:34 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [Auth server] 127.0.0.1 : 8000
+20201217 23:23:35 DEBUG ../../../apps/lua/scripts/gateway/gw_service.lua:41  
+connection to server [Auth server] 127.0.0.1 : 8000
+20201217 23:23:35 ERROR ../../../apps/lua/scripts/database/mysql_auth_center.lua:22  
+SSL connection error: socket layer send error
+20201217 23:23:36 ERROR ../../../apps/lua/scripts/gateway/gw_service.lua:28  
+connect failed to server [System server] 127.0.0.1 : 8001

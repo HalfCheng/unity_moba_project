@@ -9,3 +9,6 @@
     public static int UnameOrUpwdError = -105;
     public static int InvalidOpt = -106;
 }
+
+记录单编号    00001151668694
+业务嗖哩编号  20200616011601298227
