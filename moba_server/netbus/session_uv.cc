@@ -41,6 +41,17 @@ extern "C" {
 		{
 			log_debug("write success\n");
 		}
+		tp_protocol::release_package((unsigned char *)req->write_buffer.base);
+		cache_free(wr_allocer, req);
+	}
+
+	static void ws_after_write(uv_write_t* req, int status)
+	{
+		if (status == 0)
+		{
+			log_debug("write success\n");
+		}
+		ws_protocol::free_ws_send_pkg((unsigned char *)req->write_buffer.base);
 		cache_free(wr_allocer, req);
 	}
 
@@ -138,13 +149,16 @@ void session_uv::send_data(unsigned char * body, int len)
 			int ws_pkg_len;
 			unsigned char* ws_pkg = ws_protocol::package_ws_send_data(body, len, &ws_pkg_len);
 			w_buf = uv_buf_init((char*)ws_pkg, ws_pkg_len);
-			uv_write(w_req, (uv_stream_t*)&this->tcp_handler, &w_buf, 1, after_write);
-			ws_protocol::free_ws_send_pkg(ws_pkg);
+			w_req->write_buffer.base = (char*)ws_pkg;
+			w_req->write_buffer.len = ws_pkg_len;
+			uv_write(w_req, (uv_stream_t*)&this->tcp_handler, &w_buf, 1, ws_after_write);
 		}
 		else
 		{
-			w_buf = uv_buf_init((char*)body, len);
-			uv_write(w_req, (uv_stream_t*)&this->tcp_handler, &w_buf, 1, after_write);
+			static char respones[512];
+			memcpy(respones, body, len);
+			w_buf = uv_buf_init((char*)respones, len);
+			uv_write(w_req, (uv_stream_t*)&this->tcp_handler, &w_buf, 1, NULL);
 		}
 
 	}
@@ -154,8 +168,9 @@ void session_uv::send_data(unsigned char * body, int len)
 		int tp_pkg_len;
 		unsigned char* tp_pkg = tp_protocol::package(body, len, &tp_pkg_len);
 		w_buf = uv_buf_init((char*)tp_pkg, tp_pkg_len);
+		w_req->write_buffer.base = (char*)tp_pkg;
+		w_req->write_buffer.len = tp_pkg_len;
 		uv_write(w_req, (uv_stream_t*)&this->tcp_handler, &w_buf, 1, after_write);
-		tp_protocol::release_package(tp_pkg);
 	}
 }
 

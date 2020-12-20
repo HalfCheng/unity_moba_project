@@ -54,7 +54,7 @@ public class network : UnitySinleton<network>
             return;
         }
 
-        Debug.LogError("Init+++++++");
+        Debug.Log("Init+++++++");
         this.server_ip = server_ip;
         this.port = port;
         this.recv_buf = new byte[RECV_LEN];

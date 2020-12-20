@@ -18,7 +18,8 @@ local State = require("logic_server/State")
 
 local match_mgr = {}
 local sg_matchid = 1
-local PLAYER_NUM = 1 --3v3
+local PLAYER_NUM = 2 --3v3
+local LOGIC_FRAME_TIME = 50 --每帧间隔 66毫秒
 
 function match_mgr:new(instant)
     if not instant then
@@ -69,7 +70,10 @@ function match_mgr:screenplayer(p)
         if not self.v_inview_players[i] then
             self.v_inview_players[i] = p
             p:setseatid(i)
-            p:side(i > PLAYER_NUM and 1 or 0)
+            p:side(0)
+            if i > PLAYER_NUM then
+                p:side(1)
+            end
             break
         end
     end
@@ -103,11 +107,11 @@ function match_mgr:game_start()
     self.v_frame_id = 1
 
     self.v_all_match_FramesOpts = {} --保存的是游戏开始以来所有的帧操作
-    self.v_next_FrameOpt = { old_frameid = self.v_frame_id, opts = {{seatid = 1, opt_type = 1, x = 0, y = 0}} } --当前的帧操作
+    self.v_next_FrameOpt = { old_frameid = self.v_frame_id, opts = { { seatid = 1, opt_type = 1, x = 0, y = 0 } } } --当前的帧操作
 
     self.v_frame_timer = Scheduler.schedule(function()
         self:on_logic_frame()
-    end, 5000, -1, 50)
+    end, 2000, -1, LOGIC_FRAME_TIME)
 end
 
 --收到客户端发给服务器的下一帧的操作

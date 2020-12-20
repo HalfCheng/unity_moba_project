@@ -34,7 +34,7 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
             return;
         }
 
-        Debug.LogError("login logic_server success");
+        Debug.Log("login logic_server success");
         event_manager.Instance.dispatch_event("login_logic_server");
     }
 
@@ -143,7 +143,7 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
             return;
         }
 
-        Debug.Log("当前玩家没有同步的操作" + res.cur_frameid); //当前帧，以及当前玩家没有同步的操作
+        //Debug.Log("当前玩家没有同步的操作" + res.cur_frameid); //当前帧，以及当前玩家没有同步的操作
         event_manager.Instance.dispatch_event(logic_update, res);
     }
 
