@@ -110,9 +110,11 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
 
     private void on_game_start(cmd_msg msg)
     {
+        Debug.LogError("on_game_start");
         GameStart res = proto_man.protobuf_deserialize<GameStart>(msg.body);
         if (null == res)
         {
+            Debug.LogError("on_game_start return");
             return;
         }
 
@@ -150,6 +152,7 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
     private void on_logic_server_return(cmd_msg msg)
     {
         Cmd ctype = (Cmd) msg.ctype;
+        // Debug.LogError(ctype);
         switch (ctype)
         {
             case Cmd.eLoginLogicRes:
@@ -199,7 +202,6 @@ public class logic_service_proxy : Singleton<logic_service_proxy>
         LoginLogicReq req = new LoginLogicReq();
         req.udp_ip = "127.0.0.1";
         req.udp_port = network.Instance.local_udp_port;
-
         network.Instance.send_protobuf_cmd(Stype.Logic, Cmd.eLoginLogicReq, req);
     }
 

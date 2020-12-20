@@ -23,7 +23,7 @@ public class hero_level_config
     public int max_blood; // 当前等级英雄最大血量;
     public int add_blood; // 升到这级的时候要给英雄加多少血量;
     public int exp;
-    public int relive_fps; // 英雄在这个登记的复合时间;
+    public int relive_fps; // 英雄在这个登记的复活时间;
 }
 
 

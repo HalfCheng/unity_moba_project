@@ -9,11 +9,10 @@ enum CharacterState
     free = 2,
     idle = 3,
     attack = 4,
-    attack2 = 5,
-    attack3 = 6,
-    skill = 7,
-    skill2 = 8,
-    death = 9,
+    skill1 = 5,
+    skill2 = 6,
+    skill3 = 7,
+    death = 8,
 }
 
 public class hero : MonoBehaviour
@@ -49,8 +48,7 @@ public class hero : MonoBehaviour
     // end
 
     private logic_attack attack;
-
-    // public UI_show_blood ui_blood = null;
+    public UI_show_blood ui_blood = null;
 
     // 玩家死亡
     public bool is_live = true; // 玩家是否活着
@@ -91,6 +89,7 @@ public class hero : MonoBehaviour
         this.anim = this.GetComponent<Animation>();
         this.anim_state = CharacterState.idle;
         this.init_hero_params();
+        this.anim.Play("free");
     }
 
     void init_hero_params()
@@ -104,12 +103,20 @@ public class hero : MonoBehaviour
         this.sync_exp_ui();
 
         this.attack = this.gameObject.AddComponent<logic_attack>();
-        // this.attack.add_listener(this.on_attack_end);
+        this.attack.add_listener(this.on_attack_end);
+    }
+
+    void on_attack_end()
+    {
+        this.anim_state = CharacterState.idle;
+        this.logic_state = CharacterState.idle;
+        game_zygote.Instance.ui_attack.attack_type = (int)OptType.Invalid;
+        this.anim.CrossFade("free");
     }
 
     void sync_blood_ui()
     {
-        // this.ui_blood.set_blood((float) this.blood / (float) this.config[this.level].max_blood);
+        this.ui_blood.set_blood((float) this.blood / (float) this.config[this.level].max_blood);
 
         if (!this.is_ghost)
         {
@@ -122,7 +129,7 @@ public class hero : MonoBehaviour
 
     void sync_exp_ui()
     {
-        // this.ui_blood.set_level(this.level + 1);
+        this.ui_blood.set_level(this.level + 1);
 
         if (!this.is_ghost)
         {
@@ -138,10 +145,10 @@ public class hero : MonoBehaviour
 
     public void add_exp(int exp_value)
     {
-        // if (!this.is_live)
-        // {
-        // return;
-        // }
+        if (!this.is_live)
+        {
+            return;
+        }
 
         this.exp += exp_value;
         int level = game_config.exp2level(this.config, this.exp);
@@ -167,6 +174,7 @@ public class hero : MonoBehaviour
         this.stick_y = 0;
         this.logic_position = logic_pos;
         this.logic_state = CharacterState.idle;
+        this.birth_point = this.logic_position;
     }
 
     private void do_joystick_event(float dt)
@@ -208,7 +216,7 @@ public class hero : MonoBehaviour
         {
             if (this.anim_state != CharacterState.idle)
             {
-                this.anim.CrossFade("idle");
+                this.anim.CrossFade("free");
                 this.anim_state = CharacterState.idle;
             }
 
@@ -229,10 +237,25 @@ public class hero : MonoBehaviour
         }
     }
 
+    void ui_blood_update()
+    {
+        Vector2 pos2D = Camera.main.WorldToScreenPoint(this.transform.position);
+        this.ui_blood.transform.position = pos2D + new Vector2(this.ui_blood.x_offset, this.ui_blood.y_offset);
+        if (pos2D.x > Screen.width || pos2D.x < 0 || pos2D.y > Screen.height || pos2D.y < 0)
+        {
+            this.ui_blood.gameObject.SetActive(false);
+        }
+        else
+        {
+            this.ui_blood.gameObject.SetActive(true);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
         this.on_joystick_anim_update();
+        this.ui_blood_update();
     }
 
     private void handle_joystic_event(OptionEvent opt)
@@ -249,9 +272,35 @@ public class hero : MonoBehaviour
         }
     }
 
-    private void jump_joystick_event(OptionEvent opt)
+    void do_attack()
     {
-        this.sync_last_joystic_event(opt);
+        if (this.attack.attack_to(null, 100, 8, 11))
+        {
+            this.anim_state = CharacterState.attack;
+            this.logic_state = CharacterState.attack;
+            this.anim.CrossFade("attack");
+        }
+    }
+
+    void do_skill1()
+    {
+        // float valid_R = this.config[this.level].skill.valid_R;
+        // int value = this.config[this.level].skill.value;
+
+        // List<GameObject> targets = game_zygote.Instance.find_targets(this.side, this.transform.position, valid_R);
+        // if (this.attack.attack_all(targets, value, 8, 11))
+        // {
+        //     this.anim_state = charactor_state.skill;
+        //     this.logic_state = charactor_state.skill;
+        //     this.anim.CrossFade("skill");
+        // }
+
+        if (this.attack.attack_all(null, 100, 8, 11))
+        {
+            this.anim_state = CharacterState.attack;
+            this.logic_state = CharacterState.attack;
+            this.anim.CrossFade("skill");
+        }
     }
 
     public void on_handler_frame_event(OptionEvent opt)
@@ -262,6 +311,15 @@ public class hero : MonoBehaviour
             case OptType.JoyStick:
                 this.handle_joystic_event(opt);
                 break;
+
+            case OptType.Attack:
+                this.do_attack();
+                break;
+
+            case OptType.Skill1:
+                this.do_skill1();
+                break;
+
             default:
                 break;
         }
@@ -315,22 +373,68 @@ public class hero : MonoBehaviour
         this.is_live = false;
         this.relive_fps = 0;
 
-        // this.ui_blood.gameObject.SetActive(false);
+        this.ui_blood.gameObject.SetActive(false);
         this.anim.Play("death"); // 播放完成以后, 要隐藏掉物体;
         this.Invoke("on_death_anim_end", 2.0f);
     }
 
-    //英雄跳帧
-    public void on_jump_to_next_frame(OptionEvent opt)
+    void do_relive()
     {
-        OptType opt_type = (OptType) opt.opt_type;
-        switch (opt_type)
+        // 玩家的状态
+        this.is_live = true;
+        this.gameObject.SetActive(true);
+
+        // 玩家的位置
+        this.stick_x = 0;
+        this.stick_y = 0;
+        this.logic_position = this.birth_point;
+        this.transform.position = this.logic_position;
+
+        // 玩家血条恢复
+        this.ui_blood.gameObject.SetActive(true);
+        this.ui_blood_update();
+
+        // 同步血量，经验
+        this.blood = this.config[this.level].max_blood;
+        this.sync_blood_ui();
+        this.sync_exp_ui();
+
+        // 同步动画状态
+        this.anim_state = CharacterState.idle;
+        this.logic_state = CharacterState.idle;
+        this.anim.Play("free");
+
+        if (!this.is_ghost)
         {
-            case OptType.JoyStick:
-                this.jump_joystick_event(opt);
-                break;
-            default:
-                break;
+            Camera.main.transform.position = this.transform.position + this.camera_offset;
+            game_zygote.Instance.cancel_die_effect();
         }
+    }
+
+    public void on_logic_update()
+    {
+        if (!this.is_live)
+        {
+            this.relive_fps++;
+            if (this.relive_fps >= this.config[this.level].relive_fps)
+            {
+                this.do_relive();
+                this.relive_fps = 0;
+            }
+
+            return;
+        }
+
+        this.attack.on_logic_update();
+    }
+
+    public void OnDestroy()
+    {
+        if (this.ui_blood.is_live)
+        {
+            GameObject.Destroy(this.ui_blood.gameObject);
+        }
+
+        this.ui_blood = null;
     }
 }

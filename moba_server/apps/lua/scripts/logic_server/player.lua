@@ -24,6 +24,7 @@ end
 
 function player:init(uid, s, ret_handler)
     self:set_session(s)
+    self.v_match_room = nil
     self.v_uid = uid
     self.v_zid = -1 --玩家所在的战场空间（圣光营地/奥斯深渊）
     self.v_matchid = -1 --玩家所在的比赛房间的id
@@ -40,7 +41,17 @@ function player:init(uid, s, ret_handler)
     self.v_is_robot = false
     self.v_sunc_frameid = 0 --当前玩家同步到的帧 
 
+    self.v_is_login_out = false
+
     --数据库里面读取玩家的基本信息
+    self:get_info(uid, ret_handler)
+    --end
+
+    --。。。其他信息后面再读
+    --end
+end
+
+function player:get_info(uid, ret_handler)
     mysql_game.get_ugame_info(uid, function(err, ugame_info)
         if err then
             if ret_handler then
@@ -62,10 +73,6 @@ function player:init(uid, s, ret_handler)
             end)
         end
     end)
-    --end
-
-    --。。。其他信息后面再读
-    --end
 end
 
 function player:clearmatchdata()
@@ -106,12 +113,35 @@ function player:getseatid()
     return self.v_seatid
 end
 
+function player:setmatchroom(match_room)
+    self.v_match_room = match_room
+end
+
+function player:getmatchroom()
+    return self.v_match_room
+end
+
 function player:side(side)
     if side then
         self.v_side = side
     else
         return self.v_side
     end
+end
+
+function player:is_login_out(enable)
+    if enable ~= nil then
+        self.v_is_login_out = enable
+    end
+    return self.v_is_login_out
+end
+
+function player:getuid()
+    return self.v_uid
+end
+
+function player:getsession()
+    return self.v_session
 end
 
 function player:heroid(heroid)

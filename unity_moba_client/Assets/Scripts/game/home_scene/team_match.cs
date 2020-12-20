@@ -24,7 +24,7 @@ public class team_match : MonoBehaviour
         instance.add_event_listener("exit_match", this.on_self_exit_match);
         instance.add_event_listener("other_user_exit", this.on_other_user_exit_match);
         instance.add_event_listener("game_start", this.on_game_start);
-        this.on_begin_match_click();
+        // this.on_begin_match_click();
     }
 
     private void on_user_arrived(string name, object udata)

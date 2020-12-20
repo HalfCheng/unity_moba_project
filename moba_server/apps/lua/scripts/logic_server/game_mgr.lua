@@ -32,6 +32,9 @@ local zone_robot_list = {} --机器人列表
 zone_robot_list[Zone.SGYD] = {}
 zone_robot_list[Zone.ASSY] = {}
 
+local game_maching_list = {}  --当前正在比赛中的玩家
+local is_logining_list = {} --正在请求登录
+
 local function do_new_robot_players(robots)
     if #robots <= 0 then
         return
@@ -112,6 +115,13 @@ local function send_status(s, stype, ctype, uid, status)
     Session.send_msg(s, msg)
 end
 
+local function on_game_start_callback(zid, p)
+    if p.v_is_robot then
+        return
+    end
+    game_maching_list[p:getuid()] = p
+end
+
 --搜索能够加入房间的房间号
 local function search_inview_match_mgr(zid)
     local match_list = zone_match_list[zid]
@@ -123,10 +133,43 @@ local function search_inview_match_mgr(zid)
 
     local match = match_mgr:new()
     --table.insert(match_list, match)
-    match:init(zid)
+    match:init(zid, on_game_start_callback)
     match_list[match:getmatchid()] = match
 
     return match
+end
+
+local function search_playing_match_mgr(zid, match_id)
+    local match_list = zone_match_list[zid]
+    for k, v in ipairs(match_list) do
+        if v:getmatchid() == match_id then
+            return v
+        end
+    end
+end
+
+--重新返回战场，如果返回失败，则登录成功
+local function re_enter_match(p)
+    Logger.error("re_enter_match>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+    local s = p:getsession()
+    send_status(s, Stype.Logic, Cmd.eLoginLogicRes, p:getuid(), Respones.OK)
+    if p:getzid() == -1 then
+        return
+    end
+
+    local match = search_playing_match_mgr(p:getzid(), p:getmatchid())
+    --房间不存在，比赛销毁
+    if not match then
+        return
+    end
+
+    if p.v_state ~= State.Playing then
+        return
+    end
+
+    --重新返回战场
+    if not match:re_enter_match(p) then
+    end
 end
 
 local function login_logic_server(s, req)
@@ -136,15 +179,39 @@ local function login_logic_server(s, req)
 
     print(body.ip, body.udp_port)
 
+    if is_logining_list[uid] then
+        return
+    end
+    is_logining_list[uid] = uid
+
     local p = logic_server_players[uid]
+    local is_reconnect = game_maching_list[uid] ~= nil --在比赛途中退出后重新连接
+
     --玩家对象已经在队列中, 更新一下session就可以了
     Logger.error("p == nil", p == nil, online_player_num)
     if p then
         p:set_session(s)
         send_status(s, stype, Cmd.eLoginLogicRes, uid, Respones.OK)
+    elseif is_reconnect then
+        p = game_maching_list[uid]
+        p:set_session(s)
+        p:set_udp_addr(body.udp_ip, body.udp_port)
+        p:is_login_out(false)
+        p:get_info(uid, function(status)
+            is_logining_list[uid] = nil
+            Logger.error("call_back", status == Respones.OK)
+            if status == Respones.OK then
+                logic_server_players[uid] = p
+                online_player_num = online_player_num + 1
+                re_enter_match(p)
+            else
+                send_status(s, Stype.Logic, Cmd.eLoginLogicRes, uid, status)
+            end
+        end)
     else
         p = player:new()
         p:init(uid, s, function(status)
+            is_logining_list[uid] = nil
             Logger.error("login_logic_server()", online_player_num, status)
             if status == Respones.OK then
                 logic_server_players[uid] = p
@@ -162,6 +229,11 @@ local function enter_zone(s, req)
     local uid = req[3]
 
     local p = logic_server_players[uid]
+
+    if game_maching_list[uid] then
+        Logger.error("game_maching_list return")
+        return
+    end
 
     if not p or p:getzid() ~= -1 then
         send_status(s, stype, Cmd.eEnterZoneRes, uid, Respones.InvalidOpt)
@@ -308,10 +380,18 @@ local function on_player_disconnect(s, req)
     if p then
         Logger.error("on_player_disconnect", online_player_num)
         online_player_num = online_player_num - 1
-        do_offline_match(p)
         logic_server_players[uid] = nil
     end
     --end
+    if p:getstate() == State.Playing then
+        do_offline_match(p)
+        p:is_login_out(true)
+        local match = p:getmatchroom()
+        if match then
+            match:exit_player(p)
+        end
+    end
+
 end
 
 --网关断线
@@ -333,13 +413,12 @@ local function on_next_frame_event(s, req)
     --local stype = req[1]
     --local ctype = req[2]
     local body = req[4]
-    
+
     local match = zone_match_list[body.zid][body.matchid]
     if not match or match.v_state ~= State.Playing then
-        Logger.error("not find")
+        Logger.error("not find", match and match.v_state ~= State.Playing)
         return
     end
-    
     match:on_next_frame_event(body)
 end
 

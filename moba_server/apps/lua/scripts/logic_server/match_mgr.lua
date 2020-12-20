@@ -30,9 +30,9 @@ function match_mgr:new(instant)
     return instant
 end
 
-function match_mgr:init(zid)
+function match_mgr:init(zid, game_start_callback)
     self.v_zid = zid
-    self.v_mathcid = sg_matchid
+    self.v_matchid = sg_matchid
     self.v_member = 0
     sg_matchid = sg_matchid + 1
 
@@ -47,6 +47,7 @@ function match_mgr:init(zid)
 
     self.v_all_match_FramesOpts = {} --保存的是游戏开始以来所有的帧操作
     self.v_next_FrameOpt = {} --当前的帧操作 对应协议 FrameOpts
+    self.v_game_start_call_back = game_start_callback
 end
 
 function match_mgr:broadcast_cmd_inview_players(stype, ctype, body, not_to_player)
@@ -58,12 +59,12 @@ function match_mgr:broadcast_cmd_inview_players(stype, ctype, body, not_to_playe
 end
 
 function match_mgr:getmatchid()
-    return self.v_mathcid
+    return self.v_matchid
 end
 
 --筛选玩家
 function match_mgr:screenplayer(p)
-    p:setmatchid(self.v_mathcid)
+    p:setmatchid(self.v_matchid)
     p:setzid(self.v_zid)
 
     for i = 1, PLAYER_NUM * 2 do
@@ -90,6 +91,13 @@ function match_mgr:game_start()
                 side = p:side()
             }
             table.insert(players_match_info, info)
+
+            if not p.v_is_robot then
+                p:setmatchroom(self)
+                if self.v_game_start_call_back then
+                    self.v_game_start_call_back(self.v_zid, p)
+                end
+            end
         else
             Logger.error("error to find player")
         end
@@ -150,8 +158,14 @@ function match_mgr:send_unsync_frames(p)
     local FrameOpts = {}
 
     local match_frames = self.v_all_match_FramesOpts
+    local index = 0
+    Logger.error(p.v_uinfo.unick, p.v_sunc_frameid, #match_frames)
     for i = (p.v_sunc_frameid + 1), #match_frames do
+        index = index + 1
         table.insert(FrameOpts, match_frames[i])
+        if index > 10 then
+            break
+        end
     end
     --table.insert(FrameOpts, match_frames[1])
     local body = {
@@ -187,6 +201,77 @@ function match_mgr:update_players_state(state)
     end
 end
 
+--玩家重新返回战场 true 表示成功
+function match_mgr:re_enter_match(p)
+    if self.v_state ~= State.Playing then
+        Logger.error("return")
+        return false
+    end
+
+    self.v_member = self.v_member + 1
+    if self.v_member > PLAYER_NUM * 2 then
+        Logger.error("match room error!!!!!!!!!!!!!!!!!!!!!")
+    end
+
+    p.v_sunc_frameid = 0
+    p:setmatchid(self.v_matchid)
+    p:setzid(self.v_zid)
+    Logger.error("seatid ", p:getseatid())
+
+    --通知玩家已经进入房间
+    local body = { zid = self.v_zid, matchid = self.v_matchid, seatid = p:getseatid(), side = p:side() }
+    p:send_cmd(Stype.Logic, Cmd.eEnterMatch, body)
+
+    print("re_enter_match id, member ", self.v_matchid, self.v_member, p.v_uinfo.unick)
+    --玩家还要知道当前房间里面所有玩家的列表
+    for i, v in pairs(self.v_inview_players) do
+        if v ~= p then
+            p:send_cmd(Stype.Logic, Cmd.eUserArrived, v:get_user_arrived())
+        end
+    end
+
+    local players_match_info = {}
+    if self.v_game_start_call_back then
+        self.v_game_start_call_back(self.v_zid, p)
+    end
+
+    for i = 1, PLAYER_NUM * 2 do
+        local p1 = self.v_inview_players[i]
+        if p1 then
+            local info = {
+                heroid = p1:heroid(),
+                seatid = p1:getseatid(),
+                side = p1:side()
+            }
+            table.insert(players_match_info, info)
+        elseif p:getseatid() == i then
+            local info = {
+                heroid = p:heroid(),
+                seatid = p:getseatid(),
+                side = p:side()
+            }
+            table.insert(players_match_info, info)
+        else
+            Logger.error("error to find player")
+        end
+    end
+
+    local body = {
+        players_match_infos = players_match_info
+    }
+
+    p:send_cmd(Stype.Logic, Cmd.eGameStart, body)
+    print("cur match_room id, Cmd.eGameStart ", self.v_matchid, self.v_member, p.v_uinfo.unick)
+
+    Scheduler.schedule(function()
+        if p:getseatid() then
+            self.v_inview_players[p:getseatid()] = p
+        end
+    end, 2000, 1)
+
+    return true
+end
+
 function match_mgr:enter_player(p)
     if self.v_state ~= State.InView or p.v_state ~= State.InView then
         return false
@@ -200,7 +285,7 @@ function match_mgr:enter_player(p)
     --end
 
     --通知玩家已经进入房间
-    local body = { zid = self.v_zid, matchid = self.v_mathcid, seatid = p:getseatid(), side = p:side() }
+    local body = { zid = self.v_zid, matchid = self.v_matchid, seatid = p:getseatid(), side = p:side() }
     p:send_cmd(Stype.Logic, Cmd.eEnterMatch, body)
     --end
 
@@ -208,7 +293,7 @@ function match_mgr:enter_player(p)
     self:broadcast_cmd_inview_players(Stype.Logic, Cmd.eUserArrived, p:get_user_arrived(), p)
     --end
 
-    print("cur match_room id, member ", self.v_mathcid, self.v_member)
+    print("cur match_room id, member ", self.v_matchid, self.v_member, p.v_uinfo.unick)
     --玩家还要知道当前房间里面所有玩家的列表
     for i, v in pairs(self.v_inview_players) do
         if v ~= p then
@@ -246,7 +331,9 @@ function match_mgr:exit_player(p)
     self.v_member = self.v_member - 1
     local seatid = p:getseatid()
     self.v_inview_players[p:getseatid()] = nil
-    p:clearmatchdata()
+    if p:getstate() ~= State.Playing then
+        p:clearmatchdata()
+    end
 
     self:broadcast_cmd_inview_players(Stype.Logic, Cmd.eUserExitMatch, { seatid = seatid })
     p:send_cmd(Stype.Logic, Cmd.eExitMatchRes, { status = Respones.OK })
@@ -258,7 +345,9 @@ function match_mgr:offline_player(p)
         self.v_member = self.v_member - 1
         local seatid = p:getseatid()
         self.v_inview_players[p:getseatid()] = nil
-        p:clearmatchdata()
+        if p:getstate() ~= State.Playing then
+            p:clearmatchdata()
+        end
         self:broadcast_cmd_inview_players(Stype.Logic, Cmd.eUserExitMatch, { seatid = seatid })
     end
 end

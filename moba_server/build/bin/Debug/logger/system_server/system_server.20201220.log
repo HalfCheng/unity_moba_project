@@ -1,0 +1,396 @@
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:28  
+connect to moba game db success!!!!
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/database/redis_rank.lua:31  
+connect to redis rank db success!!!!
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201220 17:18:14 DEBUG ../../../apps/lua/scripts/database/redis_game.lua:30  
+connect to redis game db success!!!!
+20201220 17:18:14 ERROR ../../../apps/lua/scripts/database/redis_game.lua:32  
+select db_idx
+20201220 17:18:14 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201220 17:18:14 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:33  
+select db_idx
+20201220 17:18:15 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:277  
+new client comming 127.0.0.1:54796
+
+20201220 17:21:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:24:18 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:37:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:39:37 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:41:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:50:45 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:51:12 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:51:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:53:34 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 17:55:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:35:26 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201220 18:35:26 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201220 18:35:26 DEBUG ../../../apps/lua/scripts/database/redis_game.lua:30  
+connect to redis game db success!!!!
+20201220 18:35:26 DEBUG ../../../apps/lua/scripts/database/redis_rank.lua:31  
+connect to redis rank db success!!!!
+20201220 18:35:26 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201220 18:35:26 ERROR ../../../apps/lua/scripts/database/redis_game.lua:32  
+select db_idx
+20201220 18:35:26 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:33  
+select db_idx
+20201220 18:35:26 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201220 18:35:27 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:28  
+connect to moba game db success!!!!
+20201220 18:35:27 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:277  
+new client comming 127.0.0.1:55203
+
+20201220 18:35:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:36:50 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:38:01 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:38:15 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:39:01 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/database/redis_game.lua:30  
+connect to redis game db success!!!!
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/database/redis_rank.lua:31  
+connect to redis rank db success!!!!
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201220 18:39:55 ERROR ../../../apps/lua/scripts/database/redis_game.lua:32  
+select db_idx
+20201220 18:39:55 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:33  
+select db_idx
+20201220 18:39:55 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201220 18:39:55 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:277  
+new client comming 127.0.0.1:55275
+
+20201220 18:39:55 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:28  
+connect to moba game db success!!!!
+20201220 18:40:24 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:40:43 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:41:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:42:01 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:43:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:43:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:44:58 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:45:31 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:47:23 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:47:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:51:10 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:51:26 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:53:13 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:53:26 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:54:49 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:55:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:56:22 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 18:56:37 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:00:21 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:00:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:02:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:08:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:08:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:09:40 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:10:04 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:14:47 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:15:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:16:08 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:16:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:17:55 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:22:14 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:22:39 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:29:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:30:10 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:32:51 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:33:06 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:37:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:37:47 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:41:19 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:42:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:44:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:46:30 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:47:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:50:08 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:50:33 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:53:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:58:19 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 19:58:45 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:01:15 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:01:35 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:05:08 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:05:25 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:05:44 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:05:59 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:12:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:12:48 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:13:18 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:13:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:15:02 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:15:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:15:59 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:16:34 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/database/redis_game.lua:30  
+connect to redis game db success!!!!
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/database/redis_rank.lua:31  
+connect to redis rank db success!!!!
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201220 20:30:47 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:28  
+connect to moba game db success!!!!
+20201220 20:30:47 ERROR ../../../apps/lua/scripts/database/redis_game.lua:32  
+select db_idx
+20201220 20:30:47 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:33  
+select db_idx
+20201220 20:30:47 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201220 20:30:47 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:277  
+new client comming 127.0.0.1:56440
+
+20201220 20:30:58 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:41:23 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:42:52 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 20:43:32 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/system_server/main.lua:29  
+Auth Server Start at 8001
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/system_server/main.lua:36  
+register System service:[2] success!!!
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/database/redis_game.lua:30  
+connect to redis game db success!!!!
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/database/redis_rank.lua:31  
+connect to redis rank db success!!!!
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/database/redis_center.lua:32  
+connect to redis center db success!!!!
+20201220 23:24:44 ERROR ../../../apps/lua/scripts/database/redis_game.lua:32  
+select db_idx
+20201220 23:24:44 ERROR ../../../apps/lua/scripts/database/redis_rank.lua:33  
+select db_idx
+20201220 23:24:44 ERROR ../../../apps/lua/scripts/database/redis_center.lua:34  
+select db_idx
+20201220 23:24:44 DEBUG ../../../apps/lua/scripts/database/mysql_game.lua:28  
+connect to moba game db success!!!!
+20201220 23:24:44 ERROR d:\c++\moba_game_server\moba_server\netbus\netbus.cc:277  
+new client comming 127.0.0.1:56905
+
+20201220 23:24:54 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:25:37 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:26:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:26:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:27:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:28:17 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:28:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:29:03 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:29:29 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:30:36 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:31:11 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:32:28 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:33:00 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:34:06 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:34:42 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+
+20201220 23:38:11 DEBUG d:\c++\moba_game_server\moba_server\netbus\session_uv.cc:42  
+write success
+

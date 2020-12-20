@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_show_blood : MonoBehaviour
-{
+public class UI_show_blood : MonoBehaviour {
     public Sprite sideA_blood;
     public Sprite sideB_blood;
 
